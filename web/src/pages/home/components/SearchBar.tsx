@@ -1,21 +1,26 @@
+import { css } from "@emotion/css";
 import { ReactElement, useEffect, useState } from "react";
+import { API_URL } from "../../../config";
 
 interface SearchBarProps {
-  a?: string;
+  maxSuggestions?: number;
 }
 
-function SearchBar({ a }: SearchBarProps): ReactElement {
+function SearchBar({ maxSuggestions = 30 }: SearchBarProps): ReactElement {
   const [searchContent, setSearchContent] = useState("");
-  console.log(process.env.API_URL);
+  const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
 
   // When search content change
   useEffect(() => {
-    fetch("lochals");
-  }, [searchContent]);
+    (async () => {
+      const res = await fetch(
+        `${API_URL}/courses?query=${searchContent}&max=${maxSuggestions}`
+      );
+      setSearchSuggestions(await res.json());
+    })();
+  }, [searchContent, maxSuggestions]);
 
   function searchHandler() {}
-
-  const fetchData = () => {};
 
   return (
     <div>
@@ -27,6 +32,16 @@ function SearchBar({ a }: SearchBarProps): ReactElement {
         placeholder="Search a course..."
       />
       <button onClick={searchHandler}>SEARCH</button>
+      <div
+        className={css`
+          display: flex;
+          flex-direction: column;
+        `}
+      >
+        {searchSuggestions.map((s) => (
+          <div key={s}>{s}</div>
+        ))}
+      </div>
     </div>
   );
 }

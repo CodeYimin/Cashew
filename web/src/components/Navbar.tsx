@@ -1,6 +1,5 @@
 import { css } from "@emotion/css";
 import { ReactElement } from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 interface NavbarProps {}
@@ -14,15 +13,18 @@ function Navbar({}: NavbarProps): ReactElement {
         align-items: center;
       `}
     >
-      <Link className="navbar-title" to="/">
+      <a className="navbar-title" href="/">
         Cashew
-      </Link>
+      </a>
       <ul>
         <li>
-          <Link to="/login">Login</Link>
+          <a href="/login">Login</a>
         </li>
         <li>
-          <Link to="/course">Cart</Link>
+          <a href="/course">Cart</a>
+        </li>
+        <li>
+          <a href="/timetable">Timetable</a>
         </li>
       </ul>
     </nav>

@@ -7,6 +7,7 @@ import {
 import Navbar from "./components/Navbar";
 import CourseDisplay from "./pages/course/CourseDisplay";
 import Homepage from "./pages/home/Homepage";
+import Timetable from "./pages/timetable/Timetable";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/course",
     element: <CourseDisplay />,
+  },
+  {
+    path: "/timetable",
+    element: <Timetable />,
   },
 ]);
 
