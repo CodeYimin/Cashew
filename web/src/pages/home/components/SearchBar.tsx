@@ -32,11 +32,21 @@ function SearchBar({ maxSuggestions = 30 }: SearchBarProps): ReactElement {
         type="text"
         placeholder="Search a course..."
       />
-      <button onClick={searchHandler}>SEARCH</button>
+      <div
+        className={css`
+          display: flex;
+          justify-content: center;
+        `}
+      >
+        <button onClick={searchHandler}>SEARCH</button>
+      </div>
+
       <div
         className={css`
           display: flex;
           flex-direction: column;
+          justify-content: center;
+          align-items: center;
         `}
       >
         {searchSuggestions.map((s) => (

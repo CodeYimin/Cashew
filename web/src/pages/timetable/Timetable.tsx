@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, useEffect, useRef, useState } from "react";
 import DisplayCourses from "./components/DisplayCourses";
 import "./timetable.css";
 import { Course } from "./types/types";
@@ -45,6 +45,19 @@ const mockjsondata = [
 interface TimetableProps {
   a?: string;
   coursedata?: Course;
+  times: {
+    start: {
+      day: number;
+      millisofday: number;
+    };
+    end: {
+      day: number;
+      millisofday: number;
+    };
+    building: {
+      buildingCode: string;
+    };
+  }[];
 }
 const weekday = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
@@ -75,21 +88,33 @@ const displayweekday = (num: number) => {
     if (i === 0) {
       elements.push(<div className="item">{weekday[num]}</div>);
     } else {
-      elements.push(<div className="item"> {i}</div>);
+      elements.push(<div className="item">{i}</div>);
     }
   }
   return elements;
 };
 
-function Timetable({ a }: TimetableProps): ReactElement {
+function Timetable({ a, times }: TimetableProps): ReactElement {
+  const container = useRef<HTMLDivElement | null>(null);
+  const [cont, setCont] = useState<HTMLDivElement>();
+  const [index, setIndex] = useState<number>(0);
+
+  useEffect(() => {
+    if (container.current) {
+      setCont(container.current);
+    }
+  });
+
+  console.log(times);
+
   return (
     <div className="timetable">
       <div className="timetable-grid">
-        <div className="grid-container">
+        <div className="grid-container" ref={container}>
           {displaygrid()}
-          <DisplayCourses mockjsondata={mockjsondata} />
         </div>
       </div>
+      <DisplayCourses mockjsondata={times} cont={cont} />
     </div>
   );
 }

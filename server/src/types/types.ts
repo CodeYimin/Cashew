@@ -1,26 +1,30 @@
+export interface Section {
+  name: string;
+  type: string;
+  sectionNumber: string;
+  meetingTimes: {
+    start: {
+      day: number;
+      millisofday: number;
+    };
+    end: {
+      day: number;
+      millisofday: number;
+    };
+    building: {
+      buildingCode: string;
+    };
+  }[];
+  instructors: {
+    firstName: string;
+    lastName: string;
+  }[];
+}
+
 export interface Course {
   name: string;
   code: string;
-  sections: {
-    name: string;
-    meetingTimes: {
-      start: {
-        day: number;
-        millisofday: number;
-      };
-      end: {
-        day: number;
-        millisofday: number;
-      };
-      building: {
-        buildingCode: string;
-      };
-    }[];
-    instructors: {
-      firstName: string;
-      lastName: string;
-    }[];
-  }[];
+  sections: Section[];
   cmCourseInfo: {
     description: string;
     title: string;

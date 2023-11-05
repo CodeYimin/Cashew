@@ -248,7 +248,8 @@ function drawDrawObjects(
   c: CanvasRenderingContext2D,
   canvasPos: Position,
   canvasSize: Dimension,
-  canvasZoom: number
+  canvasZoom: number,
+  targetCourse: string
 ) {
   objects.lines.forEach((l) => {
     c.beginPath();
@@ -307,7 +308,7 @@ function drawDrawObjects(
       canvasSize,
       canvasZoom,
       c,
-      "black"
+      course[0].code === targetCourse ? "green" : "black"
     );
 
     c.font = `${10 * canvasZoom}px Arial`;
@@ -453,11 +454,27 @@ const FlowChart = memo(function ({
       );
     });
 
-    if (!f) {
+    const g = resultFuture.current.courses.find((c) => {
+      const cx = c[1];
+      const cy = c[2];
+
+      return (
+        pos.x >= cx - COURSE_DIMENSION.width / 2 &&
+        pos.x <= cx + COURSE_DIMENSION.width / 2 &&
+        pos.y >= cy - COURSE_DIMENSION.height / 2 &&
+        pos.y <= cy + COURSE_DIMENSION.height / 2
+      );
+    });
+
+    if (!f && !g) {
       return undefined;
     }
 
-    return f[0].code;
+    if (f) {
+      return f[0].code;
+    } else if (g) {
+      return g[0].code;
+    }
   }
 
   useEffect(() => {
@@ -498,14 +515,16 @@ const FlowChart = memo(function ({
       c,
       canvasPosition,
       getCanvasSize(),
-      canvasZoom
+      canvasZoom,
+      course.code
     );
     drawDrawObjects(
       resultFuture.current,
       c,
       canvasPosition,
       getCanvasSize(),
-      canvasZoom
+      canvasZoom,
+      course.code
     );
   }, [canvas, course, canvasPosition, mouseDown, canvasZoom]);
 

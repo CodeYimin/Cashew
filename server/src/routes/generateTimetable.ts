@@ -1,78 +1,120 @@
-import ratings from "@mtucourses/rate-my-professors";
 import bodyParser from "body-parser";
 import express from "express";
-import { courseDict } from "../courseData";
-import { Course } from "../types/types";
+import { courseDict, teachers } from "../courseData";
+import { Section } from "../types/types";
 
 const router = express.Router();
 
 router.use(bodyParser.json());
 
-router.post("/", async (req, res) => {
-  try {
-    const { courseId, profPref, distancePref, timeofdayPref } = req.body;
-    const allCourses: Course["sections"][] = [];
-
-    for (let i = 0; i < courseId.length; i++) {
-      const course = courseDict[courseId[i]]
-        ? courseDict[courseId[i]][0]
-        : undefined;
-      if (course) {
-        allCourses.push(course.sections);
-      }
-    }
-
-    var lecs = [];
-    for (let i = 0; i < allCourses.length; i++) {
-      for (let j = 0; j < allCourses[i].length; j++) {
-        const teachers = await ratings.searchTeacher(
-          allCourses[i][j].instructors[0]?.lastName,
-          "U2Nob29sLTE0ODQ="
-        );
-        let rating: number = 0;
-        if (teachers !== null) {
-          var id = "";
-          for (let k = 0; k < teachers.length; k++) {
-            if (
-              teachers[k].firstName ===
-              allCourses[i][j].instructors[0]?.firstName
-            ) {
-              id = teachers[k].id;
-            }
-          }
-          if (id !== "") {
-            const teacher = await ratings.getTeacher(id);
-            rating = teacher.avgRating;
-          }
-        }
-        const remappedObject = {
-          name: allCourses[i][j].name,
-          type: allCourses[i][j].type,
-          sectionNumber: allCourses[i][j].sectionNumber,
-          avgRating: rating,
-          meetingTimes: allCourses[i][j].meetingTimes,
-        };
-        lecs.push(remappedObject);
-      }
-    }
-
-    const teachers = await ratings.searchTeacher("Cui", "U2Nob29sLTE0ODQ=");
-    var id = "";
-    for (let k = 0; k < teachers.length; k++) {
-      if (teachers[k].firstName == "Xiaoyue") {
-        id = teachers[k].id;
-      }
-    }
-    const teacher = await ratings.getTeacher(id);
-    let rating = teacher.avgRating;
-    // var FN =
-
-    // if(courses[i].)
-
-    res.send(rating.toString());
-  } catch (e) {
-    console.log(e);
+function createAllCombos(
+  options: Section[][],
+  combos: Section[][],
+  focusIndex: number,
+  combBehind: Section[]
+) {
+  if (focusIndex === options.length) {
+    combos.push([...combBehind]);
+  } else {
+    options[focusIndex].forEach((a) => {
+      combBehind[focusIndex] = a;
+      createAllCombos(options, combos, focusIndex + 1, combBehind);
+    });
   }
+}
+
+function hasConflict(sections: Section[]) {
+  const timesBooked = [[], [], [], [], []] as number[][][]; // [[],[[1, 20], [30, 40]]]
+
+  for (const s of sections) {
+    for (const t of s.meetingTimes) {
+      const day = t.start.day;
+      const start = t.start.millisofday;
+      const end = t.end.millisofday;
+      const daySlots = timesBooked[day - 1];
+      if (
+        daySlots.some(
+          ([a, b]) => (start > a && start < b) || (end > a && end < b)
+        )
+      ) {
+        return true;
+      }
+      daySlots.push([start, end]);
+    }
+  }
+
+  return false;
+}
+
+router.post("/", async (req, res) => {
+  const { courseIds, profWeight, timePref, timeWeight } = req.body as {
+    courseIds: string[];
+    profWeight?: number;
+    timePref?: number;
+    timeWeight?: number;
+  };
+
+  const courseOptions: Section[][] = courseIds.map((id) =>
+    courseDict[id][0].sections
+      .filter((s) => s.type === "Lecture")
+      .map((s) => ({ ...s, id, instructors: s.instructors }))
+  );
+  const allCourseCombos = [] as Section[][];
+  createAllCombos(
+    courseOptions,
+    allCourseCombos,
+    0,
+    new Array(courseOptions.length).fill(0)
+  );
+
+  const profScores = [] as number[];
+  const timeScores = [] as number[];
+  const realCombos = allCourseCombos.filter((c) => !hasConflict(c));
+
+  realCombos.forEach((combo, i) => {
+    let totalProfScore = 0;
+    let numProfs = 0;
+    combo.forEach((s) => {
+      s.instructors.forEach((i) => {
+        const ttt = teachers.find(
+          (a) =>
+            a.firstName === i.firstName &&
+            a.lastName === i.lastName &&
+            a.numRatings > 0
+        );
+        if (ttt) {
+          numProfs++;
+          totalProfScore += ttt.rating || 0;
+        }
+      });
+    });
+    const avgProfScore = totalProfScore / numProfs;
+    profScores[i] = avgProfScore;
+    combo.forEach((s: any) => (s.profScore = avgProfScore));
+  });
+
+  realCombos.forEach((combo, i) => {
+    combo.forEach((s) => {
+      s.meetingTimes.forEach((t) => {});
+    });
+  });
+
+  // res.send(realCombos.map((a, i) => ({ ...a, profScore: profScores[i] })));
+  const a = realCombos.slice(0, 500).map((combo) => {
+    const flatten = [] as any;
+    combo.forEach((a) =>
+      a.meetingTimes.forEach((b) =>
+        flatten.push({
+          ...b,
+          id: (a as any).id,
+          instructors: (a as any).instructors,
+          profScore: (a as any).profScore,
+        })
+      )
+    );
+    return flatten;
+  });
+  res.send(a);
 });
 
 export default router;

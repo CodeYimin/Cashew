@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Playfair+Display&family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family-Poppins");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Heebo:wght@100&family=Playfair+Display&family=Roboto:wght@500&display=swap");
 
 .homepage {
   height: 300vh;
@@ -19,6 +20,7 @@
   font-weight: 700;
   color: #ffe7db;
 }
+
 .homepage a {
   border: none;
   border-width: 0px;
@@ -46,12 +48,13 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .homepage2 .text {
   display: flex;
   justify-content: center;
   color: #000;
   font-feature-settings: "clig" off, "liga" off;
-  font-family: Heebo;
+  font-family: "Heebo", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 100;
@@ -69,17 +72,72 @@
 }
 
 .search-bar-class input {
-  margin: 10px 5px;
+  margin: 10px 5px 0px 5px;
   padding: 30px;
   border-radius: 72px;
   border: 0.5px solid rgb;
   border-style: solid;
 }
 
-.search-bar-class .fa-search {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  width: 20px;
+.homepage .panels {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 150px;
+}
+
+.homepage .panel1 {
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: #ffe7db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #347072;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.final-panel {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.final-panel .title {
+  padding: 20px 120px;
+  width: 50%;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 90.909% */
+  letter-spacing: 0.5px;
+}
+
+.final-panel p {
+  width: 50%;
+  padding: 100px 120px;
+  color: #000;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.phone-numbers {
+  width: 50%;
+  padding: 20px 120px;
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

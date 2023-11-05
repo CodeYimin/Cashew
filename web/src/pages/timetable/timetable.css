@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Heebo:wght@100&family=Playfair+Display&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
+
 .timetable .timetable-grid {
   padding: 0 12.5% 0 12.5%;
   width: 75%;
@@ -35,4 +38,87 @@
   color: #d9480f;
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+/**/
+.timetable-generator {
+  padding: 5% 0 5% 5%;
+}
+.timetable-generator .title {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 105.263% */
+  letter-spacing: 0.5px;
+  padding: 0 0 5px 0;
+}
+.timetabe-generator .subtitle {
+  color: #000;
+  font-family: "Heebo", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5px; /* 91.667% */
+  letter-spacing: 0.5px;
+}
+
+.prof {
+  padding: 30px 10px 0px 10px;
+  margin: 0 10px 0 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  color: #000;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 103%;
+  padding: 2px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+}
+.slider {
+  padding: 0;
+  margin: 0;
+}
+
+.css-187mznn-MuiSlider-root {
+  padding: 0;
+}
+.css-16e50i-MuiStack-root > :not(style) ~ :not(style) {
+  margin-top: 0;
+}
+.css-16e50i-MuiStack-root > :not(style) ~ :not(style) {
+  margin-top: 10px;
+}
+.buttondiv {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 40px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #347072;
+  color: #ffe7db;
+}
+button :hover {
+  /* border-width: 1px;
+  border-color: #ffe7db;
+  border-style: solid; */
+  /* background-color: #ffe7db; */
 }
