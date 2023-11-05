@@ -1,7 +1,6 @@
 import { css } from "@emotion/css";
 import { ReactElement, useEffect, useState } from "react";
 import { API_URL } from "../../../config";
-
 interface SearchBarProps {
   maxSuggestions?: number;
 }
@@ -23,7 +22,7 @@ function SearchBar({ maxSuggestions = 30 }: SearchBarProps): ReactElement {
   function searchHandler() {}
 
   return (
-    <div>
+    <div className="search-bar">
       <input
         onChange={(event) => {
           setSearchContent(event.currentTarget.value);

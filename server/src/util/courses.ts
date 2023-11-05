@@ -1,12 +1,11 @@
 import memoizeOne from "memoize-one";
+import { courseDict, courseListNoDupe } from "../courseData";
 import {
   Course,
   FlowChartNode,
   FutureCourseInfo,
   PrereqInfo,
-  courseDict,
-  courseListNoDupe,
-} from "../courseData";
+} from "../types/types";
 
 export function getPrereqs(course: Course, depth: number): PrereqInfo {
   if (!course.cmCourseInfo) {
@@ -210,7 +209,7 @@ export function createData(
       data: {
         code: segments[0],
         prereqs: course.cmCourseInfo.prerequisitesText
-          ? createData(getPrereqs(course, 1000).prereqsSegments!, depth - 1)
+          ? createData(getPrereqs(course, 1).prereqsSegments!, depth - 1)
           : undefined,
       },
     };
@@ -226,7 +225,7 @@ export function createData(
       data: {
         code: segments[0],
         prereqs: course.cmCourseInfo.prerequisitesText
-          ? createData(getPrereqs(course, 1000).prereqsSegments!, depth - 1)
+          ? createData(getPrereqs(course, 1).prereqsSegments!, depth - 1)
           : undefined,
       },
     };
@@ -234,6 +233,9 @@ export function createData(
 
   const hasAnd = segments.some(
     (s, i) => !inAnyRegion(i, bracketRegions(segments)) && segments[i] === ";"
+  );
+  const hasOr = segments.some(
+    (s, i) => !inAnyRegion(i, bracketRegions(segments)) && segments[i] === "/"
   );
 
   if (hasAnd) {
@@ -250,7 +252,7 @@ export function createData(
       type: "AND",
       data: data,
     };
-  } else {
+  } else if (hasOr) {
     // console.log("OR", segments);
     const data = orRegions(segments)
       .map((r) => createData(segments.slice(r[0], r[1]), depth))
@@ -264,5 +266,7 @@ export function createData(
       type: "OR",
       data: data,
     };
+  } else {
+    return null;
   }
 }

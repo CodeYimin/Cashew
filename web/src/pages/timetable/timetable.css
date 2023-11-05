@@ -8,7 +8,7 @@
   /* justify-items: stretch; */
   grid-template-columns: 0.5fr repeat(5, 1fr);
   grid-template-rows: 2fr repeat(29, 1fr);
-  column-gap: 5px;
+  /* column-gap: 5px; */
 }
 .timetable .item {
   background-color: #eaf4f4;
@@ -22,7 +22,7 @@
   justify-content: center;
   justify-self: stretch;
   text-align: center;
-  z-index: 1;
+  /* z-index: 1; */
 }
 /* .timetabe grid-item1 {
   

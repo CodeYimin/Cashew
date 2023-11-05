@@ -7,7 +7,7 @@ import {
 import Navbar from "./components/Navbar";
 import CourseDisplay from "./pages/course/CourseDisplay";
 import Homepage from "./pages/home/Homepage";
-import Timetable from "./pages/timetable/Timetable";
+import TimetablePage from "./pages/timetable/TimetablePage";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/timetable",
-    element: <Timetable />,
+    element: <TimetablePage />,
   },
 ]);
 

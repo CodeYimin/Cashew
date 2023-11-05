@@ -34,7 +34,7 @@ function CourseDisplay({ a }: CourseDisplayProps): ReactElement {
 
   useEffect(() => {
     (async () => {
-      const res = await fetch(`${API_URL}/prereqs?courseId=MAT237Y1`);
+      const res = await fetch(`${API_URL}/prereqs?courseId=CSC311H1&depth=2`);
       const data = await res.json();
       setCourse({ code: "CSC111", prereqs: data });
     })();
@@ -45,8 +45,8 @@ function CourseDisplay({ a }: CourseDisplayProps): ReactElement {
       <div className="course-title">Course</div>
       <div
         className={css`
-          width: 1000px;
-          height: 1000px;
+          width: 75vw;
+          height: 75vh;
         `}
       >
         {course && <FlowChart course={course} />}

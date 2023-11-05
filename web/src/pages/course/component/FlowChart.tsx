@@ -6,56 +6,26 @@ interface FlowChartProps {
   course: Course;
 }
 
-function drawRectangle(
-  c: CanvasRenderingContext2D,
-  h: number,
-  w: number,
-  cw: number,
-  obj: FlowChartNode | undefined,
-  cnt: number
-) {
-  for (let i = 1; i <= cnt; i++) {
-    c.rect(0 + i * w, h, 50, 50);
-  }
-
-  if (!obj) return;
-
-  if (obj.type === "AND") {
-    for (let i = 0; i < obj.data.length; i++) {
-      console.log(obj.data[i]);
-      drawRectangle(
-        c,
-        h - 100,
-        cw / obj.data.length,
-        cw,
-        obj.data[i],
-        obj.data.length
-      );
-      c.arc(h, cw / obj.data.length, 5, 0, 2 * Math.PI);
-    }
-  } else if (obj.type === "OR") {
-    for (let i = 0; i < obj.data.length; i++) {
-      drawRectangle(
-        c,
-        h - 100,
-        cw / obj.data.length,
-        cw,
-        obj.data[i],
-        obj.data.length
-      );
-    }
-  } else {
-    console.log("reached end");
-  }
+interface Position {
+  x: number;
+  y: number;
 }
 
-const COURSE_WIDTH = 50;
+interface Dimension {
+  width: number;
+  height: number;
+}
+
 const COURSE_SPACING = 10;
-const COURSE_HEIGHT = 10;
+const COURSE_DIMENSION = { width: 50, height: 25 };
 
 function getWidth(node: FlowChartNode): number {
   if (node.type === "COURSE") {
-    return COURSE_WIDTH;
+    if (!node.data.prereqs) {
+      return COURSE_DIMENSION.width;
+    } else {
+      return getWidth(node.data.prereqs);
+    }
   }
 
   const children = node.data;
@@ -66,41 +36,236 @@ function getWidth(node: FlowChartNode): number {
   return sumChildrenWidth + (children.length - 1) * COURSE_SPACING;
 }
 
+function virtualToCanvasPos(
+  itemPos: Position,
+  itemSize: Dimension,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number
+): Position {
+  return {
+    x:
+      (itemPos.x - itemSize.width / 2) * canvasZoom +
+      canvasSize.width / 2 -
+      canvasPos.x,
+    y:
+      canvasSize.height / 2 -
+      (itemPos.y + itemSize.height / 2) * canvasZoom +
+      canvasPos.y,
+  };
+}
+
+function moveTo(
+  to: Position,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number,
+  c: CanvasRenderingContext2D
+) {
+  c.moveTo(
+    virtualToCanvasPos(
+      to,
+      { width: 0, height: 0 },
+      canvasPos,
+      canvasSize,
+      canvasZoom
+    ).x,
+    virtualToCanvasPos(
+      to,
+      { width: 0, height: 0 },
+      canvasPos,
+      canvasSize,
+      canvasZoom
+    ).y
+  );
+}
+
+function lineTo(
+  to: Position,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number,
+  c: CanvasRenderingContext2D
+) {
+  c.lineTo(
+    virtualToCanvasPos(
+      to,
+      { width: 0, height: 0 },
+      canvasPos,
+      canvasSize,
+      canvasZoom
+    ).x,
+    virtualToCanvasPos(
+      to,
+      { width: 0, height: 0 },
+      canvasPos,
+      canvasSize,
+      canvasZoom
+    ).y
+  );
+}
+
+function fillRect(
+  itemPos: Position,
+  itemSize: Dimension,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number,
+  c: CanvasRenderingContext2D,
+  color: string
+) {
+  c.fillStyle = color;
+  c.fillRect(
+    virtualToCanvasPos(itemPos, itemSize, canvasPos, canvasSize, canvasZoom).x,
+    virtualToCanvasPos(itemPos, itemSize, canvasPos, canvasSize, canvasZoom).y,
+    itemSize.width * canvasZoom,
+    itemSize.height * canvasZoom
+  );
+}
+
+function strokeRect(
+  itemPos: Position,
+  itemSize: Dimension,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number,
+  c: CanvasRenderingContext2D,
+  color: string
+) {
+  c.strokeStyle = color;
+  c.strokeRect(
+    virtualToCanvasPos(itemPos, itemSize, canvasPos, canvasSize, canvasZoom).x,
+    virtualToCanvasPos(itemPos, itemSize, canvasPos, canvasSize, canvasZoom).y,
+    itemSize.width * canvasZoom,
+    itemSize.height * canvasZoom
+  );
+}
+
 function drawNode(
   node: FlowChartNode,
   x: number,
   y: number,
-  c: CanvasRenderingContext2D
+  c: CanvasRenderingContext2D,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number
 ) {
   if (node.type === "COURSE") {
-    console.log(`DRAW ${node.data.code}: ${x}, ${y}`);
-    const offsetX = 500;
-    const offsetY = 1000;
+    c.beginPath();
     c.fillStyle = "black";
-    c.fillRect(x + offsetX, -y + offsetY, COURSE_WIDTH, COURSE_HEIGHT);
-    c.font = "10px Arial";
-    c.fillStyle = "red";
-    c.fillText(node.data.code, x + offsetX, -y + offsetY);
+    fillRect(
+      { x, y },
+      COURSE_DIMENSION,
+      canvasPos,
+      canvasSize,
+      canvasZoom,
+      c,
+      "black"
+    );
+    c.closePath();
+
+    c.beginPath();
+    c.font = `${10 * canvasZoom}px Arial`;
+    c.fillStyle = "black";
+    c.fillText(
+      node.data.code,
+      virtualToCanvasPos(
+        { x, y },
+        COURSE_DIMENSION,
+        canvasPos,
+        canvasSize,
+        canvasZoom
+      ).x,
+      virtualToCanvasPos(
+        { x, y },
+        COURSE_DIMENSION,
+        canvasPos,
+        canvasSize,
+        canvasZoom
+      ).y
+    );
+    c.closePath();
+
+    if (node.data.prereqs) {
+      c.beginPath();
+      c.strokeStyle = node.data.prereqs.type === "AND" ? "red" : "black";
+      moveTo(
+        { x, y: y + COURSE_DIMENSION.height * 0.5 },
+        canvasPos,
+        canvasSize,
+        canvasZoom,
+        c
+      );
+      lineTo(
+        { x, y: y + COURSE_DIMENSION.height * 1.5 },
+        canvasPos,
+        canvasSize,
+        canvasZoom,
+        c
+      );
+      c.stroke();
+      c.closePath();
+
+      c.beginPath();
+      drawNode(
+        node.data.prereqs,
+        x,
+        y + COURSE_DIMENSION.height * 1.5,
+        c,
+        canvasPos,
+        canvasSize,
+        canvasZoom
+      );
+      c.closePath();
+    }
     return;
   }
 
-  const left = x - getWidth(node) / 2;
-  const children = node.data;
+  const nodeWidth = getWidth(node);
+  const nodeLeft = x - nodeWidth / 2;
+  const childrenNodes = node.data;
 
   if (node.type === "AND") {
-    c.fillStyle = "black";
-    c.fillRect(x + 500, 1000 - y, 10, 10);
+    c.beginPath();
+    fillRect(
+      { x, y },
+      { width: 10, height: 10 },
+      canvasPos,
+      canvasSize,
+      canvasZoom,
+      c,
+      "red"
+    );
+    c.closePath();
   } else {
-    c.strokeStyle = "black";
-    c.strokeRect(x + 500, 1000 - y, 10, 10);
+    c.beginPath();
+    strokeRect(
+      { x, y },
+      { width: 10, height: 10 },
+      canvasPos,
+      canvasSize,
+      canvasZoom,
+      c,
+      "black"
+    );
+    c.closePath();
   }
 
-  let currentX = left;
-  for (const child of children) {
+  let currentX = nodeLeft;
+  for (const child of childrenNodes) {
     const childWidth = getWidth(child);
-    console.log(childWidth);
     currentX += childWidth / 2;
-    drawNode(child, currentX, y + 100, c);
+
+    c.beginPath();
+    c.strokeStyle = node.type === "AND" ? "red" : "black;";
+    moveTo({ x, y }, canvasPos, canvasSize, canvasZoom, c);
+    lineTo({ x: currentX, y }, canvasPos, canvasSize, canvasZoom, c);
+    lineTo({ x: currentX, y: y + 50 }, canvasPos, canvasSize, canvasZoom, c);
+    c.stroke();
+    c.closePath();
+
+    drawNode(child, currentX, y + 50, c, canvasPos, canvasSize, canvasZoom);
+
     currentX += childWidth / 2;
     currentX += COURSE_SPACING;
   }
@@ -109,11 +274,23 @@ function drawNode(
 const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
   const container = useRef<HTMLDivElement | null>(null);
   const canvas = useRef<HTMLCanvasElement | null>(null);
+  const [canvasZoom, setCanvasZoom] = useState<number>(1.5);
+  const [canvasSize, setCanvasSize] = useState<Dimension>({
+    width: 0,
+    height: 0,
+  });
+  const [canvasPosition, setCanvasPosition] = useState<Position>({
+    x: 0,
+    y: 0,
+  });
+  const [prevMousePos, setPrevMousePos] = useState<Position | null>(null);
+  const [mouseDown, setMouseDown] = useState<boolean>(false);
 
-  const [canvasSize, setCanvasSize] = useState<{
-    width: number;
-    height: number;
-  }>({ width: 0, height: 0 });
+  useEffect(() => {
+    if (!mouseDown) {
+      setPrevMousePos(null);
+    }
+  }, [mouseDown]);
 
   useEffect(() => {
     if (
@@ -133,34 +310,19 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
     });
 
     const c = canvas.current.getContext("2d")!;
-    c.moveTo(0, 0);
-
-    drawNode(course.prereqs!, 0, 0, c);
-
-    // let h = canvas.current.height / 2;
-    // let w = canvas.current.width / 2;
-    // c.rect(w, h, 50, 50);
-
-    // const obj = course.prereqs;
-
-    // if (obj?.data) {
-    //   var count = 1;
-    //   if (obj.type !== "COURSE") {
-    //     drawRectangle(
-    //       c,
-    //       h - 100,
-    //       canvas.current.width / count,
-    //       canvas.current.width,
-    //       obj,
-    //       obj.type.length
-    //     );
-    //   }
-    // }
-
-    // c.strokeStyle = "green";
-    // c.lineWidth = 1;
-    // c.stroke();
-  }, [canvas, course]);
+    drawNode(
+      course.prereqs!,
+      0,
+      0,
+      c,
+      canvasPosition,
+      {
+        width: canvas.current.width,
+        height: canvas.current.height,
+      },
+      canvasZoom
+    );
+  }, [canvas, course, canvasPosition, mouseDown, canvasZoom]);
 
   return (
     <div
@@ -171,7 +333,36 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
       `}
       ref={container}
     >
-      <canvas ref={canvas} />
+      <canvas
+        ref={canvas}
+        onMouseDown={() => {
+          setMouseDown(true);
+        }}
+        onMouseUp={() => {
+          setMouseDown(false);
+        }}
+        onMouseLeave={() => {
+          setMouseDown(false);
+        }}
+        onWheel={(event) => {
+          const incrementBy = 0.15;
+          setCanvasZoom(canvasZoom - (event.deltaY / 250) * incrementBy);
+        }}
+        onMouseMove={(event) => {
+          if (mouseDown) {
+            if (prevMousePos) {
+              setCanvasPosition({
+                x: canvasPosition.x - (event.screenX - prevMousePos.x),
+                y: canvasPosition.y + (event.screenY - prevMousePos.y),
+              });
+            }
+            setPrevMousePos({
+              x: event.screenX,
+              y: event.screenY,
+            });
+          }
+        }}
+      />
     </div>
   );
 });

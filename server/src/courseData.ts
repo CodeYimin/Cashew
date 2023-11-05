@@ -1,42 +1,5 @@
 import fs from "fs";
-
-export interface FlowChartCourse {
-  code: string;
-  prereqs: FlowChartNode | null | undefined;
-}
-
-export interface AndOrNode {
-  type: "AND" | "OR";
-  data: FlowChartNode[];
-}
-
-export interface CourseNode {
-  type: "COURSE";
-  data: FlowChartCourse;
-}
-
-export type FlowChartNode = CourseNode | AndOrNode;
-
-export interface Course {
-  code: string;
-  cmCourseInfo: {
-    prerequisitesText?: string;
-  };
-}
-
-export interface PrereqInfo {
-  code: string;
-  prereqsSegments?: string[];
-  prereqsInfo?: PrereqInfo[];
-}
-
-export interface FutureCourseInfo {
-  code: string;
-  exclusive?: boolean;
-  futureCourses?: FutureCourseInfo[];
-}
-
-export type CourseDict = Record<string, Course[]>;
+import { Course, CourseDict } from "./types/types";
 
 export const courseDict: CourseDict = JSON.parse(
   fs.readFileSync("./src/data/courseDict.json").toString()
