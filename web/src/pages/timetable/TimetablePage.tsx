@@ -1,6 +1,7 @@
 import { css } from "@emotion/css";
 import { Slider, Stack } from "@mui/material";
 import { ReactElement, useState } from "react";
+import { API_URL } from "../../config";
 import Timetable from "./Timetable";
 import { Course } from "./types/types";
 
@@ -11,43 +12,32 @@ interface TimetablePageProps {
 
 function TimetablePage({ a }: TimetablePageProps): ReactElement {
   const [courseData, setCourseData] = useState<Course>();
-  const [profPref, setProfPref] = useState<any>();
-  const [distancePref, setDistancePref] = useState<any>();
-  const [timeofdayPref, settimeofdayPref] = useState<any>();
-  const courseId = ["MAT137Y1, MAT223H1, CSC110Y1"];
+
+  const [profPref, setProfPref] = useState<any>(50);
+  const [distancePref, setDistancePref] = useState<any>(50);
+  const [timeofdayPref, settimeofdayPref] = useState<any>(1);
+  const courseId = ["MAT137Y1", "MAT223H1", "CSC110Y1"];
 
   function onSubmitHandler() {
-    const { courseId, profPref, distancePref, timeofdayPref } = JSON.stringify({
-      courseId: courseId,
-      profPref: profPref,
-      distancePref: distancePref,
-      timeofdayPref: timeofdayPref,
-    });
-
-    const courseIdArr = a.courseId
-      .split(",")
-      .map((item: string) => item.trim());
-    console.log(courseIdArr);
-
-    // fetch(`${API_URL}/generateTimetable`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     courseId: courseId,
-    //     profPref: profPref,
-    //     distancePref: distancePref,
-    //     timeofdayPref: timeofdayPref,
-    //   }),
-    // })
-    //   .then((response) => response.json()) // Parse the response as JSON
-    //   .then((data) => {
-    //     console.log(data);
-    //   })
-    //   .catch((error) => {
-    //     console.error(error);
-    //   });
+    fetch(`${API_URL}/generateTimetable`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        courseId: courseId,
+        profPref: profPref,
+        distancePref: distancePref,
+        timeofdayPref: timeofdayPref,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
   return (

@@ -1,5 +1,5 @@
 import { css } from "@emotion/css";
-import { ReactElement, memo, useEffect, useRef, useState } from "react";
+import { ReactElement, memo, useEffect, useRef } from "react";
 import { Course, FlowChartNode } from "../types/types";
 
 interface FlowChartProps {
@@ -52,6 +52,18 @@ function virtualToCanvasPos(
       canvasSize.height / 2 -
       (itemPos.y + itemSize.height / 2) * canvasZoom +
       canvasPos.y,
+  };
+}
+
+function canvasToVirtualPos(
+  mouseCanvasPos: Position,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number
+): Position {
+  return {
+    x: (mouseCanvasPos.x + canvasPos.x - canvasSize.width / 2) / canvasZoom,
+    y: (mouseCanvasPos.y - canvasPos.y - canvasSize.height / 2) / -canvasZoom,
   };
 }
 
@@ -274,25 +286,39 @@ function drawNode(
 const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
   const container = useRef<HTMLDivElement | null>(null);
   const canvas = useRef<HTMLCanvasElement | null>(null);
-  const [canvasZoom, setCanvasZoom] = useState<number>(1.5);
-  const [canvasSize, setCanvasSize] = useState<Dimension>({
-    width: 0,
-    height: 0,
-  });
-  const [canvasPosition, setCanvasPosition] = useState<Position>({
+  const canvasZoom = useRef<number>(1.5);
+  const canvasPosition = useRef<Position>({
     x: 0,
     y: 0,
   });
-  const [prevMousePos, setPrevMousePos] = useState<Position | null>(null);
-  const [mouseDown, setMouseDown] = useState<boolean>(false);
+  const prevMousePos = useRef<Position | null>(null);
+  const mouseDown = useRef<boolean>(false);
 
-  useEffect(() => {
-    if (!mouseDown) {
-      setPrevMousePos(null);
+  function getCanvasSize(): Dimension {
+    if (!canvas.current) {
+      return { width: 0, height: 0 };
     }
-  }, [mouseDown]);
 
-  useEffect(() => {
+    return { width: canvas.current.width, height: canvas.current.height };
+  }
+
+  function screenToVirtualPos(screenPos: Position) {
+    if (!container.current) {
+      return { x: 0, y: 0 };
+    }
+    const canvasPos = {
+      x: screenPos.x - container.current.getBoundingClientRect().x,
+      y: screenPos.y - container.current.getBoundingClientRect().y,
+    };
+    return canvasToVirtualPos(
+      canvasPos,
+      canvasPosition.current,
+      getCanvasSize(),
+      canvasZoom.current
+    );
+  }
+
+  function draw() {
     if (
       !container.current ||
       !canvas.current ||
@@ -304,25 +330,24 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
     canvas.current.width = container.current.getBoundingClientRect().width;
     canvas.current.height = container.current.getBoundingClientRect().height;
 
-    setCanvasSize({
-      width: canvas.current.width,
-      height: canvas.current.height,
-    });
-
     const c = canvas.current.getContext("2d")!;
     drawNode(
-      course.prereqs!,
+      { type: "COURSE", data: course },
       0,
       0,
       c,
-      canvasPosition,
+      canvasPosition.current,
       {
         width: canvas.current.width,
         height: canvas.current.height,
       },
-      canvasZoom
+      canvasZoom.current
     );
-  }, [canvas, course, canvasPosition, mouseDown, canvasZoom]);
+  }
+
+  useEffect(() => {
+    draw();
+  }, [course]);
 
   return (
     <div
@@ -336,31 +361,46 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
       <canvas
         ref={canvas}
         onMouseDown={() => {
-          setMouseDown(true);
+          mouseDown.current = true;
         }}
         onMouseUp={() => {
-          setMouseDown(false);
+          mouseDown.current = false;
+          prevMousePos.current = null;
         }}
         onMouseLeave={() => {
-          setMouseDown(false);
+          mouseDown.current = false;
+          prevMousePos.current = null;
         }}
         onWheel={(event) => {
           const incrementBy = 0.15;
-          setCanvasZoom(canvasZoom - (event.deltaY / 250) * incrementBy);
+          canvasZoom.current -= (event.deltaY / 250) * incrementBy;
+          console.log(
+            screenToVirtualPos({ x: event.clientX, y: event.clientY })
+          );
+          draw();
+
+          console.log(
+            screenToVirtualPos({ x: event.clientX, y: event.clientY })
+          );
         }}
         onMouseMove={(event) => {
-          if (mouseDown) {
-            if (prevMousePos) {
-              setCanvasPosition({
-                x: canvasPosition.x - (event.screenX - prevMousePos.x),
-                y: canvasPosition.y + (event.screenY - prevMousePos.y),
-              });
+          if (mouseDown.current) {
+            if (prevMousePos.current) {
+              canvasPosition.current = {
+                x:
+                  canvasPosition.current.x -
+                  (event.screenX - prevMousePos.current.x),
+                y:
+                  canvasPosition.current.y +
+                  (event.screenY - prevMousePos.current.y),
+              };
             }
-            setPrevMousePos({
+            prevMousePos.current = {
               x: event.screenX,
               y: event.screenY,
-            });
+            };
           }
+          draw();
         }}
       />
     </div>
