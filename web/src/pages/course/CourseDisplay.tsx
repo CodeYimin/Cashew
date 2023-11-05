@@ -1,7 +1,7 @@
 import { css } from "@emotion/css";
 import { ReactElement, useEffect, useState } from "react";
 import { API_URL } from "../../config";
-import FlowChart from "./component/FlowChart";
+import FlowChart2 from "./component/FlowChart2";
 import { Course } from "./types/types";
 
 const mockCourse: Course = {
@@ -49,7 +49,7 @@ function CourseDisplay({ a }: CourseDisplayProps): ReactElement {
           height: 75vh;
         `}
       >
-        {course && <FlowChart course={course} />}
+        {course && <FlowChart2 course={course} />}
       </div>
     </div>
   );

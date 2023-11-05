@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
+// import { ReactElement } from "react";
 
-interface TimetableProps {
-  a?: string;
-}
+// interface TimetableProps {
+//   a?: string;
+// }
 
-function Timetable({ a }: TimetableProps): ReactElement {
-  return <div></div>;
-}
+// function Timetable({ a }: TimetableProps): ReactElement {
+//   return <div></div>;
+// }
 
-export default Timetable;
+// export default Timetable;

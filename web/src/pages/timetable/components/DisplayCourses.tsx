@@ -31,8 +31,8 @@ function DisplayCourses({
           `}
         ></div>
       );
-      console.log("start: ", start);
-      console.log("end: ", end);
+      //   console.log("start: ", start);
+      //   console.log("end: ", end);
     }
     return elements;
   };

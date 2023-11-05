@@ -12,13 +12,12 @@ interface TimetablePageProps {
 
 function TimetablePage({ a }: TimetablePageProps): ReactElement {
   const [courseData, setCourseData] = useState<Course>();
-  const [profPref, setProfPref] = useState<number>();
-  const [distancePref, setDistancePref] = useState();
-  const [timeofdayPref, settimeofdayPref] = useState();
+  const [profPref, setProfPref] = useState<any>();
+  const [distancePref, setDistancePref] = useState<any>();
+  const [timeofdayPref, settimeofdayPref] = useState<any>();
   const courseId = ["MAT137Y1, MAT223H1, CSC110Y1"];
 
   useEffect(() => {
-    console.log(courseData);
     console.log(profPref);
   }, [courseData, profPref]);
 
@@ -51,17 +50,25 @@ function TimetablePage({ a }: TimetablePageProps): ReactElement {
             alignItems="center"
           >
             <Slider
-              onChange={(e, val) => setProfPref(val)}
+              onChange={(event, value) => {
+                setProfPref(value);
+              }}
               defaultValue={50}
               aria-label="Default"
               valueLabelDisplay="auto"
             />
             <Slider
+              onChange={(event, value) => {
+                setDistancePref(value);
+              }}
               defaultValue={50}
               aria-label="Default"
               valueLabelDisplay="auto"
             />
             <Slider
+              onChange={(event, value) => {
+                setDistancePref(value);
+              }}
               aria-label="Temperature"
               defaultValue={1}
               step={1}
