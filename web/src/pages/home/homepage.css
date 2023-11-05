@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Playfair+Display&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family-Poppins");
+
+.homepage {
+  height: 300vh;
+  background-image: url("../../components/images/Rectangle_19.png");
+  background-repeat: no-repeat;
+}
+
+.homepage .title {
+  font-size: 90px;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  padding: 15% 20% 0 10%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: #ffe7db;
+}
+.homepage a {
+  border: none;
+  border-width: 0px;
+  color: #347072;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffe7db;
+  width: 20%;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 10px 0px 10px 0px;
+  font-weight: 200;
+  margin: 40px 0px 0px 0px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "ABeeZee", sans-serif;
+}
+
+.homepage2 {
+}
+
+.homepage2 .search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homepage2 .text {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 22px; /* 110% */
+  letter-spacing: 0.5px;
+  padding: 10% 0 5% 0;
+}
+
+.search-bar-class {
+  width: 30%;
+  padding: 0px 35% 0 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-bar-class input {
+  margin: 10px 5px;
+  padding: 30px;
+  border-radius: 72px;
+  border: 0.5px solid rgb;
+  border-style: solid;
+}
+
+.search-bar-class .fa-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 20px;
+}

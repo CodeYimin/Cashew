@@ -1,9 +1,12 @@
 import { css } from "@emotion/css";
-import { ReactElement, memo, useEffect, useRef } from "react";
-import { Course, FlowChartNode } from "../types/types";
+import { ReactElement, memo, useEffect, useRef, useState } from "react";
+import { Course, FlowChartNode, FutureCourseInfo } from "../types/types";
 
 interface FlowChartProps {
   course: Course;
+  onCourseClick: (code: string) => void;
+  courseFuture: FutureCourseInfo;
+  exclusiveFuture: boolean;
 }
 
 interface Position {
@@ -16,8 +19,21 @@ interface Dimension {
   height: number;
 }
 
+interface Result {
+  courses: [Course, number, number][];
+  lines: [number, number, number, number, string][];
+  nodes: ["AND" | "OR", number, number][];
+}
+
+interface ResultFuture {
+  courses: [string, number, number][];
+  lines: [number, number, number, number, string][];
+  nodes: [number, number][];
+}
+
 const COURSE_SPACING = 10;
-const COURSE_DIMENSION = { width: 50, height: 25 };
+const COURSE_DIMENSION = { width: 75, height: 25 };
+const VERTICAL_SPACING = 35;
 
 function getWidth(node: FlowChartNode): number {
   if (node.type === "COURSE") {
@@ -31,6 +47,19 @@ function getWidth(node: FlowChartNode): number {
   const children = node.data;
   const sumChildrenWidth = children.reduce(
     (prev, curr) => prev + getWidth(curr),
+    0
+  );
+  return sumChildrenWidth + (children.length - 1) * COURSE_SPACING;
+}
+
+function getWidthFuture(future: FutureCourseInfo): number {
+  const children = future.futureCourses;
+  if (!children || !children.length) {
+    return COURSE_DIMENSION.width;
+  }
+
+  const sumChildrenWidth = children.reduce(
+    (prev, curr) => prev + getWidthFuture(curr),
     0
   );
   return sumChildrenWidth + (children.length - 1) * COURSE_SPACING;
@@ -153,82 +182,30 @@ function strokeRect(
   );
 }
 
-function drawNode(
+function createDrawObjects(
   node: FlowChartNode,
   x: number,
   y: number,
-  c: CanvasRenderingContext2D,
-  canvasPos: Position,
-  canvasSize: Dimension,
-  canvasZoom: number
+  result: Result
 ) {
   if (node.type === "COURSE") {
-    c.beginPath();
-    c.fillStyle = "black";
-    fillRect(
-      { x, y },
-      COURSE_DIMENSION,
-      canvasPos,
-      canvasSize,
-      canvasZoom,
-      c,
-      "black"
-    );
-    c.closePath();
-
-    c.beginPath();
-    c.font = `${10 * canvasZoom}px Arial`;
-    c.fillStyle = "black";
-    c.fillText(
-      node.data.code,
-      virtualToCanvasPos(
-        { x, y },
-        COURSE_DIMENSION,
-        canvasPos,
-        canvasSize,
-        canvasZoom
-      ).x,
-      virtualToCanvasPos(
-        { x, y },
-        COURSE_DIMENSION,
-        canvasPos,
-        canvasSize,
-        canvasZoom
-      ).y
-    );
-    c.closePath();
+    result.courses.push([node.data, x, y]);
 
     if (node.data.prereqs) {
-      c.beginPath();
-      c.strokeStyle = node.data.prereqs.type === "AND" ? "red" : "black";
-      moveTo(
-        { x, y: y + COURSE_DIMENSION.height * 0.5 },
-        canvasPos,
-        canvasSize,
-        canvasZoom,
-        c
-      );
-      lineTo(
-        { x, y: y + COURSE_DIMENSION.height * 1.5 },
-        canvasPos,
-        canvasSize,
-        canvasZoom,
-        c
-      );
-      c.stroke();
-      c.closePath();
+      result.lines.push([
+        x,
+        y + COURSE_DIMENSION.height * 0.5,
+        x,
+        y + COURSE_DIMENSION.height * 1.5,
+        node.data.prereqs.type === "OR" ? "black" : "red",
+      ]);
 
-      c.beginPath();
-      drawNode(
+      createDrawObjects(
         node.data.prereqs,
         x,
         y + COURSE_DIMENSION.height * 1.5,
-        c,
-        canvasPos,
-        canvasSize,
-        canvasZoom
+        result
       );
-      c.closePath();
     }
     return;
   }
@@ -237,64 +214,209 @@ function drawNode(
   const nodeLeft = x - nodeWidth / 2;
   const childrenNodes = node.data;
 
-  if (node.type === "AND") {
-    c.beginPath();
-    fillRect(
-      { x, y },
-      { width: 10, height: 10 },
-      canvasPos,
-      canvasSize,
-      canvasZoom,
-      c,
-      "red"
-    );
-    c.closePath();
-  } else {
-    c.beginPath();
-    strokeRect(
-      { x, y },
-      { width: 10, height: 10 },
-      canvasPos,
-      canvasSize,
-      canvasZoom,
-      c,
-      "black"
-    );
-    c.closePath();
-  }
+  result.nodes.push([node.type, x, y]);
 
   let currentX = nodeLeft;
   for (const child of childrenNodes) {
     const childWidth = getWidth(child);
     currentX += childWidth / 2;
 
-    c.beginPath();
-    c.strokeStyle = node.type === "AND" ? "red" : "black";
-    moveTo({ x, y }, canvasPos, canvasSize, canvasZoom, c);
-    lineTo({ x: currentX, y }, canvasPos, canvasSize, canvasZoom, c);
-    lineTo({ x: currentX, y: y + 50 }, canvasPos, canvasSize, canvasZoom, c);
-    c.stroke();
-    c.closePath();
+    result.lines.push([
+      x,
+      y,
+      currentX,
+      y,
+      node.type === "OR" ? "black" : "red",
+    ]);
+    result.lines.push([
+      currentX,
+      y,
+      currentX,
+      y + VERTICAL_SPACING,
+      node.type === "OR" ? "black" : "red",
+    ]);
 
-    drawNode(child, currentX, y + 50, c, canvasPos, canvasSize, canvasZoom);
+    createDrawObjects(child, currentX, y + VERTICAL_SPACING, result);
 
     currentX += childWidth / 2;
     currentX += COURSE_SPACING;
   }
 }
 
-const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
+function drawDrawObjects(
+  objects: Result,
+  c: CanvasRenderingContext2D,
+  canvasPos: Position,
+  canvasSize: Dimension,
+  canvasZoom: number
+) {
+  objects.lines.forEach((l) => {
+    c.beginPath();
+    c.strokeStyle = l[4];
+    c.lineWidth = canvasZoom;
+    moveTo({ x: l[0], y: l[1] }, canvasPos, canvasSize, canvasZoom, c);
+    lineTo({ x: l[2], y: l[3] }, canvasPos, canvasSize, canvasZoom, c);
+    c.stroke();
+    c.closePath();
+  });
+
+  objects.nodes.forEach((n) => {
+    if (n[0] === "AND") {
+      c.beginPath();
+      fillRect(
+        { x: n[1], y: n[2] },
+        { width: 10, height: 10 },
+        canvasPos,
+        canvasSize,
+        canvasZoom,
+        c,
+        "red"
+      );
+      c.closePath();
+    } else {
+      c.beginPath();
+      fillRect(
+        { x: n[1], y: n[2] },
+        { width: 10, height: 10 },
+        canvasPos,
+        canvasSize,
+        canvasZoom,
+        c,
+        "white"
+      );
+      strokeRect(
+        { x: n[1], y: n[2] },
+        { width: 10, height: 10 },
+        canvasPos,
+        canvasSize,
+        canvasZoom,
+        c,
+        "black"
+      );
+      c.closePath();
+    }
+  });
+
+  objects.courses.forEach((course) => {
+    c.beginPath();
+
+    fillRect(
+      { x: course[1], y: course[2] },
+      COURSE_DIMENSION,
+      canvasPos,
+      canvasSize,
+      canvasZoom,
+      c,
+      "black"
+    );
+
+    c.font = `${10 * canvasZoom}px Arial`;
+    c.fillStyle = "white";
+    c.textBaseline = "top";
+    c.fillText(
+      course[0].code,
+      virtualToCanvasPos(
+        { x: course[1], y: course[2] },
+        { width: 50, height: 10 },
+        canvasPos,
+        canvasSize,
+        canvasZoom
+      ).x,
+      virtualToCanvasPos(
+        { x: course[1], y: course[2] },
+        { width: 50, height: 10 },
+        canvasPos,
+        canvasSize,
+        canvasZoom
+      ).y
+    );
+    c.closePath();
+  });
+}
+
+function createDrawObjectsFuture(
+  future: FutureCourseInfo,
+  x: number,
+  y: number,
+  result: Result,
+  isRoot: boolean,
+  exclusive: boolean
+) {
+  if (!isRoot) {
+    result.courses.push([{ code: future.code }, x, y]);
+  }
+  if (!future.futureCourses || !future.futureCourses.length) {
+    return;
+  }
+
+  result.lines.push([
+    x,
+    y - COURSE_DIMENSION.height * 0.5,
+    x,
+    y - COURSE_DIMENSION.height * 1.5,
+    exclusive ? "red" : "black",
+  ]);
+
+  if (future.futureCourses.length === 1) {
+    result.courses.push([{ code: future.code }, x, y - VERTICAL_SPACING]);
+    return;
+  }
+
+  y -= VERTICAL_SPACING;
+
+  const nodeWidth = getWidthFuture(future);
+  const nodeLeft = x - nodeWidth / 2;
+  const childrenNodes = future.futureCourses;
+
+  result.nodes.push([exclusive ? "AND" : "OR", x, y]);
+
+  let currentX = nodeLeft;
+  for (const child of childrenNodes) {
+    const childWidth = getWidthFuture(child);
+    currentX += childWidth / 2;
+
+    result.lines.push([x, y, currentX, y, exclusive ? "red" : "black"]);
+    result.lines.push([
+      currentX,
+      y,
+      currentX,
+      y - VERTICAL_SPACING,
+      exclusive ? "red" : "black",
+    ]);
+
+    createDrawObjectsFuture(
+      child,
+      currentX,
+      y - VERTICAL_SPACING,
+      result,
+      false,
+      exclusive
+    );
+
+    currentX += childWidth / 2;
+    currentX += COURSE_SPACING;
+  }
+}
+
+const FlowChart = memo(function ({
+  course,
+  courseFuture,
+  onCourseClick,
+  exclusiveFuture,
+}: FlowChartProps): ReactElement {
   const container = useRef<HTMLDivElement | null>(null);
   const canvas = useRef<HTMLCanvasElement | null>(null);
-  const canvasZoom = useRef<number>(1.5);
-  const canvasPosition = useRef<Position>({
+  const [canvasZoom, setCanvasZoom] = useState<number>(1.5);
+  const [canvasPosition, setCanvasPosition] = useState<Position>({
     x: 0,
     y: 0,
   });
-  const prevMousePos = useRef<Position | null>(null);
-  const mouseDown = useRef<boolean>(false);
+  const [prevMousePos, setPrevMousePos] = useState<Position | null>(null);
+  const [mouseDown, setMouseDown] = useState<boolean>(false);
+  const result = useRef<Result>({ courses: [], lines: [], nodes: [] });
+  const resultFuture = useRef<Result>({ courses: [], lines: [], nodes: [] });
 
-  function getCanvasSize(): Dimension {
+  function getCanvasSize() {
     if (!canvas.current) {
       return { width: 0, height: 0 };
     }
@@ -312,13 +434,53 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
     };
     return canvasToVirtualPos(
       canvasPos,
-      canvasPosition.current,
+      canvasPosition,
       getCanvasSize(),
-      canvasZoom.current
+      canvasZoom
     );
   }
 
-  function draw() {
+  function findCourseAtPos(pos: Position) {
+    const f = result.current.courses.find((c) => {
+      const cx = c[1];
+      const cy = c[2];
+
+      return (
+        pos.x >= cx - COURSE_DIMENSION.width / 2 &&
+        pos.x <= cx + COURSE_DIMENSION.width / 2 &&
+        pos.y >= cy - COURSE_DIMENSION.height / 2 &&
+        pos.y <= cy + COURSE_DIMENSION.height / 2
+      );
+    });
+
+    if (!f) {
+      return undefined;
+    }
+
+    return f[0].code;
+  }
+
+  useEffect(() => {
+    if (!mouseDown) {
+      setPrevMousePos(null);
+    }
+  }, [mouseDown]);
+
+  useEffect(() => {
+    result.current = { courses: [], lines: [], nodes: [] };
+    resultFuture.current = { courses: [], lines: [], nodes: [] };
+    createDrawObjects({ type: "COURSE", data: course }, 0, 0, result.current);
+    createDrawObjectsFuture(
+      courseFuture,
+      0,
+      0,
+      resultFuture.current,
+      true,
+      exclusiveFuture
+    );
+  }, [course, courseFuture, exclusiveFuture]);
+
+  useEffect(() => {
     if (
       !container.current ||
       !canvas.current ||
@@ -331,23 +493,21 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
     canvas.current.height = container.current.getBoundingClientRect().height;
 
     const c = canvas.current.getContext("2d")!;
-    drawNode(
-      { type: "COURSE", data: course },
-      0,
-      0,
+    drawDrawObjects(
+      result.current,
       c,
-      canvasPosition.current,
-      {
-        width: canvas.current.width,
-        height: canvas.current.height,
-      },
-      canvasZoom.current
+      canvasPosition,
+      getCanvasSize(),
+      canvasZoom
     );
-  }
-
-  useEffect(() => {
-    draw();
-  }, [course]);
+    drawDrawObjects(
+      resultFuture.current,
+      c,
+      canvasPosition,
+      getCanvasSize(),
+      canvasZoom
+    );
+  }, [canvas, course, canvasPosition, mouseDown, canvasZoom]);
 
   return (
     <div
@@ -360,47 +520,72 @@ const FlowChart = memo(function ({ course }: FlowChartProps): ReactElement {
     >
       <canvas
         ref={canvas}
-        onMouseDown={() => {
-          mouseDown.current = true;
+        onMouseDown={(event) => {
+          setMouseDown(true);
         }}
-        onMouseUp={() => {
-          mouseDown.current = false;
-          prevMousePos.current = null;
+        onMouseUp={(event) => {
+          setMouseDown(false);
+
+          if (event.button === 0) {
+            const clickedCourse = findCourseAtPos(
+              screenToVirtualPos({ x: event.clientX, y: event.clientY })
+            );
+
+            if (clickedCourse) {
+              onCourseClick(clickedCourse);
+            }
+          }
         }}
         onMouseLeave={() => {
-          mouseDown.current = false;
-          prevMousePos.current = null;
+          setMouseDown(false);
         }}
         onWheel={(event) => {
-          const incrementBy = 0.15;
-          canvasZoom.current -= (event.deltaY / 250) * incrementBy;
-          console.log(
-            screenToVirtualPos({ x: event.clientX, y: event.clientY })
+          const incrementBy = 0.1;
+          const newZoom =
+            canvasZoom + canvasZoom * (-event.deltaY / 250) * incrementBy;
+          const currentPosVirt = screenToVirtualPos({
+            x: event.clientX,
+            y: event.clientY,
+          });
+          const currentPosCanvas = virtualToCanvasPos(
+            currentPosVirt,
+            { width: 0, height: 0 },
+            canvasPosition,
+            getCanvasSize(),
+            canvasZoom
           );
-          draw();
+          const newPosCanvas = virtualToCanvasPos(
+            currentPosVirt,
+            { width: 0, height: 0 },
+            canvasPosition,
+            getCanvasSize(),
+            newZoom
+          );
+          const diffCanvas = {
+            x: newPosCanvas.x - currentPosCanvas.x,
+            y: newPosCanvas.y - currentPosCanvas.y,
+          };
 
-          console.log(
-            screenToVirtualPos({ x: event.clientX, y: event.clientY })
-          );
+          setCanvasPosition({
+            x: canvasPosition.x + diffCanvas.x,
+            y: canvasPosition.y - diffCanvas.y,
+          });
+
+          setCanvasZoom(newZoom);
         }}
         onMouseMove={(event) => {
-          if (mouseDown.current) {
-            if (prevMousePos.current) {
-              canvasPosition.current = {
-                x:
-                  canvasPosition.current.x -
-                  (event.screenX - prevMousePos.current.x),
-                y:
-                  canvasPosition.current.y +
-                  (event.screenY - prevMousePos.current.y),
-              };
+          if (mouseDown) {
+            if (prevMousePos) {
+              setCanvasPosition({
+                x: canvasPosition.x - (event.screenX - prevMousePos.x),
+                y: canvasPosition.y + (event.screenY - prevMousePos.y),
+              });
             }
-            prevMousePos.current = {
+            setPrevMousePos({
               x: event.screenX,
               y: event.screenY,
-            };
+            });
           }
-          draw();
         }}
       />
     </div>

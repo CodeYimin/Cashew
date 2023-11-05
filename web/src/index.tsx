@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import CourseDisplay from "./pages/course/CourseDisplay";
+import HomeSecond from "./pages/home/HomeSecond";
 import Homepage from "./pages/home/Homepage";
 import TimetablePage from "./pages/timetable/TimetablePage";
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/timetable",
     element: <TimetablePage />,
+  },
+  {
+    path: "/homepagesearch",
+    element: <HomeSecond />,
   },
 ]);
 

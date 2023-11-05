@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import SearchBar from "./components/SearchBar";
+import "./homepage.css";
 
 interface HomepageProps {
   a?: string;
@@ -7,8 +7,13 @@ interface HomepageProps {
 
 function Homepage({ a }: HomepageProps): ReactElement {
   return (
-    <div>
-      <SearchBar />
+    <div className="homepage">
+      <div className="title">
+        <div>Welcome to University of Toronto</div>
+        <div className={`padding: 20 0 20 0`}></div>
+        <div>Course Pathway Portal</div>
+        <a href="/homepagesearch">Get Started</a>
+      </div>
     </div>
   );
 }

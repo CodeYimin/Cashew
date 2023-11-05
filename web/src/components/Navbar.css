@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 nav .navbar-title {
   font-size: 1.5rem;
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
   color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 0px 0px 0px 50px;
+  color: #ffe7db;
 }
 
 nav ul {
@@ -12,13 +21,27 @@ nav ul {
 
 nav ul li {
   list-style: none;
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 0px 40px;
+  color: #ffe7db;
 }
 
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #ffe7db;
   padding: 0.5rem;
   margin: 0 0.5 rem;
   border-radius: 0.5rem;
+}
+nav .icons {
+  display: flex;
+  padding: 0 20px;
+}
+
+.icons img {
+  padding: 0 20px;
 }

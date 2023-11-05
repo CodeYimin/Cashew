@@ -102,6 +102,55 @@ export const getFutureCourses = memoizeOne(function (
   };
 });
 
+function courseInAndChain(course: string, node: FlowChartNode): boolean {
+  if (node.type === "OR") {
+    return false;
+  }
+
+  if (node.type === "COURSE") {
+    return node.data.code === course;
+  }
+
+  // AND
+  return node.data.some((n) => courseInAndChain(course, n));
+}
+
+export const getFutureCoursesExclusive = memoizeOne(function (
+  course: string,
+  depth: number
+): FutureCourseInfo {
+  const futureCourses =
+    depth === 0
+      ? undefined
+      : courseListNoDupe.filter((c) => {
+          if (isDogWater(c)) {
+            return false;
+          }
+
+          const prereqs = getPrereqs(c, 10000);
+          if (!prereqs.prereqsSegments) {
+            return;
+          }
+
+          const prereqData = createData(prereqs.prereqsSegments, 1);
+          if (!prereqData) {
+            return false;
+          }
+
+          return courseInAndChain(course, prereqData);
+        });
+
+  return {
+    code: course,
+    futureCourses:
+      depth === 0
+        ? undefined
+        : futureCourses!.map((a) =>
+            getFutureCoursesExclusive(a.code, depth - 1)
+          ),
+  };
+});
+
 function isDogWater(c: Course) {
   return (
     c.cmCourseInfo?.prerequisitesText &&
@@ -199,7 +248,7 @@ export function createData(
   }
 
   if (segments.length === 1) {
-    if (segments[0] === ";" || segments[0] === "/") {
+    if ([";", "/", "(", ")"].includes(segments[0])) {
       return null;
     }
 
@@ -219,11 +268,11 @@ export function createData(
   if (codes.length === 0) {
     return null;
   } else if (codes.length === 1) {
-    const course = courseDict[segments[0]][0];
+    const course = courseDict[codes[0]][0];
     return {
       type: "COURSE",
       data: {
-        code: segments[0],
+        code: codes[0],
         prereqs: course.cmCourseInfo.prerequisitesText
           ? createData(getPrereqs(course, 1).prereqsSegments!, depth - 1)
           : undefined,

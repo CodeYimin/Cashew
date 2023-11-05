@@ -13,4 +13,10 @@ export interface CourseNode {
   data: Course;
 }
 
+export interface FutureCourseInfo {
+  code: string;
+  exclusive?: boolean;
+  futureCourses?: FutureCourseInfo[];
+}
+
 export type FlowChartNode = CourseNode | AndOrNode;
