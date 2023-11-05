@@ -1,7 +1,6 @@
 import { css } from "@emotion/css";
 import { Slider, Stack } from "@mui/material";
-import { ReactElement, useEffect, useState } from "react";
-import { API_URL } from "../../config";
+import { ReactElement, useState } from "react";
 import Timetable from "./Timetable";
 import { Course } from "./types/types";
 
@@ -17,18 +16,38 @@ function TimetablePage({ a }: TimetablePageProps): ReactElement {
   const [timeofdayPref, settimeofdayPref] = useState<any>();
   const courseId = ["MAT137Y1, MAT223H1, CSC110Y1"];
 
-  useEffect(() => {
-    console.log(profPref);
-  }, [courseData, profPref]);
-
   function onSubmitHandler() {
-    const fetchData = async () => {
-      const res = await fetch(
-        `${API_URL}/generateTimetable?courseId=${courseId}`
-      );
-      const data = await res.json();
-    };
-    fetchData();
+    const { courseId, profPref, distancePref, timeofdayPref } = JSON.stringify({
+      courseId: courseId,
+      profPref: profPref,
+      distancePref: distancePref,
+      timeofdayPref: timeofdayPref,
+    });
+
+    const courseIdArr = a.courseId
+      .split(",")
+      .map((item: string) => item.trim());
+    console.log(courseIdArr);
+
+    // fetch(`${API_URL}/generateTimetable`, {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({
+    //     courseId: courseId,
+    //     profPref: profPref,
+    //     distancePref: distancePref,
+    //     timeofdayPref: timeofdayPref,
+    //   }),
+    // })
+    //   .then((response) => response.json()) // Parse the response as JSON
+    //   .then((data) => {
+    //     console.log(data);
+    //   })
+    //   .catch((error) => {
+    //     console.error(error);
+    //   });
   }
 
   return (
@@ -67,7 +86,7 @@ function TimetablePage({ a }: TimetablePageProps): ReactElement {
             />
             <Slider
               onChange={(event, value) => {
-                setDistancePref(value);
+                settimeofdayPref(value);
               }}
               aria-label="Temperature"
               defaultValue={1}

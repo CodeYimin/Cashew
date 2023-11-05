@@ -257,7 +257,7 @@ function drawNode(
     currentX += childWidth / 2;
 
     c.beginPath();
-    c.strokeStyle = node.type === "AND" ? "red" : "black;";
+    c.strokeStyle = node.type === "AND" ? "red" : "black";
     moveTo({ x, y }, canvasPos, canvasSize, canvasZoom, c);
     lineTo({ x: currentX, y }, canvasPos, canvasSize, canvasZoom, c);
     lineTo({ x: currentX, y: y + 50 }, canvasPos, canvasSize, canvasZoom, c);

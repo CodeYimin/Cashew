@@ -7,13 +7,10 @@ const router = express.Router();
 router.use(bodyParser.json());
 
 router.get("/", async (req, res) => {
-  const { courseId } = req.query as {
-    courseId: string;
-    // profPref: number;
-    // distancePref: number;
-    // timeofdayPref: number;
-  };
-  const arrCourse = [];
+  const { courseId, profPref, distancePref, timeofdayPref } = req.body;
+  // an array of all the potential courses
+  const courseIdArr = courseId.split(",").map((item: string) => item.trim());
+
   const course = courseDict[courseId] ? courseDict[courseId][0] : undefined;
   if (!course) {
     res.status(404).send();
@@ -21,7 +18,7 @@ router.get("/", async (req, res) => {
   }
   const newCourse = course.sections;
 
-  res.status(200).send(course.sections);
+  res.status(200).json(course.sections);
 });
 
 export default router;
