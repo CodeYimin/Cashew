@@ -53,7 +53,7 @@ function Homepage({ a }: HomepageProps): ReactElement {
           </div>
         </div>
         <div className="Picture">
-          <img src={pic} style={{ height: "30rem" }} alt="" />
+          <img src={pic} style={{ height: "30rem", padding: "60px" }} alt="" />
         </div>
       </div>
     </div>
