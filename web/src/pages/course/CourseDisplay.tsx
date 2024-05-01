@@ -52,7 +52,7 @@ interface CourseDisplayProps {
 
 function CourseDisplay({ a }: CourseDisplayProps): ReactElement {
   const [courseIdA, setCourseIdA] = useState<string>("");
-  const [courseId, setCourseId] = useState<string>("MAT257Y1");
+  const [courseId, setCourseId] = useState<string>("CSC413H1");
   const [course, setCourse] = useState<Course>();
   const [future, setFuture] = useState<FutureCourseInfo>();
   const [futureDepth, setFutureDepth] = useState<number>(1);

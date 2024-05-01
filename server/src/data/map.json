@@ -1,0 +1,3098 @@
+[
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.654133,
+        "lng": -79.405182,
+        "mapId": 1809,
+        "id": 494445,
+        "weight": 10,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364284,
+        "name": "TWH - Krembil Discovery Tower",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.654308,
+        "lng": -79.385361,
+        "mapId": 1809,
+        "id": 494446,
+        "weight": 3,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364285,
+        "name": "Chestnut Residence and Conference Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65546,
+        "lng": -79.389168,
+        "mapId": 1809,
+        "id": 494447,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364286,
+        "name": "Rehabilitation Sciences Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65564,
+        "lng": -79.386772,
+        "mapId": 1809,
+        "id": 494448,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364287,
+        "name": "123 Edward Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.656273,
+        "lng": -79.387146,
+        "mapId": 1809,
+        "id": 494449,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364288,
+        "name": "Dentistry Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658165,
+        "lng": -79.397453,
+        "mapId": 1809,
+        "id": 494450,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364289,
+        "name": "229 College Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658195,
+        "lng": -79.397095,
+        "mapId": 1809,
+        "id": 494451,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364290,
+        "name": "Gage Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658207,
+        "lng": -79.399704,
+        "mapId": 1809,
+        "id": 494452,
+        "weight": 8,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364291,
+        "name": "455 Spadina Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658478,
+        "lng": -79.39286,
+        "mapId": 1809,
+        "id": 494453,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364292,
+        "name": "Exam Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658569,
+        "lng": -79.3936,
+        "mapId": 1809,
+        "id": 494454,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364293,
+        "name": "254/256 McCaul Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658684,
+        "lng": -79.397911,
+        "mapId": 1809,
+        "id": 494455,
+        "weight": 9,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364294,
+        "name": "Student Commons (Under Renovation)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658794,
+        "lng": -79.397446,
+        "mapId": 1809,
+        "id": 494456,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364295,
+        "name": "Fields Inst for Research in Math Science",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65881,
+        "lng": -79.392502,
+        "mapId": 1809,
+        "id": 494457,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364296,
+        "name": "263 McCaul Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658928,
+        "lng": -79.393547,
+        "mapId": 1809,
+        "id": 494458,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364297,
+        "name": "Communications House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659039,
+        "lng": -79.392883,
+        "mapId": 1809,
+        "id": 494459,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364298,
+        "name": "Health Sciences Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659122,
+        "lng": -79.395187,
+        "mapId": 1809,
+        "id": 494460,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364299,
+        "name": "Wallberg Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659168,
+        "lng": -79.396889,
+        "mapId": 1809,
+        "id": 494461,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364300,
+        "name": "Koffler Student Services Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659233,
+        "lng": -79.392067,
+        "mapId": 1809,
+        "id": 494462,
+        "weight": 9,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364301,
+        "name": "Stewart Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659298,
+        "lng": -79.398239,
+        "mapId": 1809,
+        "id": 494463,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364302,
+        "name": "215 Huron Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659462,
+        "lng": -79.395897,
+        "mapId": 1809,
+        "id": 494464,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364303,
+        "name": "Cumberland House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65947,
+        "lng": -79.395294,
+        "mapId": 1809,
+        "id": 494465,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364304,
+        "name": "Electrometallurgy Lab",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659504,
+        "lng": -79.393387,
+        "mapId": 1809,
+        "id": 494466,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364305,
+        "name": "Lassonde Mining Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659576,
+        "lng": -79.389717,
+        "mapId": 1809,
+        "id": 494467,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364306,
+        "name": "MaRS 2",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659595,
+        "lng": -79.395416,
+        "mapId": 1809,
+        "id": 494468,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364307,
+        "name": "Engineering Annex",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659634,
+        "lng": -79.394691,
+        "mapId": 1809,
+        "id": 494469,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364308,
+        "name": "D.L. Pratt Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659668,
+        "lng": -79.397377,
+        "mapId": 1809,
+        "id": 494470,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364309,
+        "name": "Bahen Centre for Information Technology",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659687,
+        "lng": -79.400757,
+        "mapId": 1809,
+        "id": 494471,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364310,
+        "name": "Daniels Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65987,
+        "lng": -79.398453,
+        "mapId": 1809,
+        "id": 494472,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364311,
+        "name": "Anthropology Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659882,
+        "lng": -79.396187,
+        "mapId": 1809,
+        "id": 494473,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364312,
+        "name": "Galbraith Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659935,
+        "lng": -79.394028,
+        "mapId": 1809,
+        "id": 494474,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364313,
+        "name": "Mechanical Engineering Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659943,
+        "lng": -79.393639,
+        "mapId": 1809,
+        "id": 494475,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364314,
+        "name": "Haultain Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.659958,
+        "lng": -79.391701,
+        "mapId": 1809,
+        "id": 494476,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364315,
+        "name": "Leslie L. Dan Pharmacy Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660027,
+        "lng": -79.397743,
+        "mapId": 1809,
+        "id": 494477,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364316,
+        "name": "Central Steam Plant",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660053,
+        "lng": -79.393227,
+        "mapId": 1809,
+        "id": 494478,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364317,
+        "name": "Rosebrugh Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660061,
+        "lng": -79.392448,
+        "mapId": 1809,
+        "id": 494479,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364318,
+        "name": "FitzGerald Building (Under Renovation)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660072,
+        "lng": -79.399673,
+        "mapId": 1809,
+        "id": 494480,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364319,
+        "name": "Borden Building South",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660118,
+        "lng": -79.395103,
+        "mapId": 1809,
+        "id": 494481,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364320,
+        "name": "Sandford Fleming Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660156,
+        "lng": -79.392876,
+        "mapId": 1809,
+        "id": 494482,
+        "weight": 10,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364321,
+        "name": "Terrence Donnelly Ctr for Cellular & Biomolecular Res",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660362,
+        "lng": -79.396545,
+        "mapId": 1809,
+        "id": 494483,
+        "weight": 9,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364322,
+        "name": "45 St. George Street (Physical Geography Building)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660412,
+        "lng": -79.399994,
+        "mapId": 1809,
+        "id": 494485,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364324,
+        "name": "Borden Building North",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660431,
+        "lng": -79.391762,
+        "mapId": 1809,
+        "id": 494486,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364325,
+        "name": "C. David Naylor Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660492,
+        "lng": -79.388588,
+        "mapId": 1809,
+        "id": 494487,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364326,
+        "name": "Banting Institute",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66061,
+        "lng": -79.400589,
+        "mapId": 1809,
+        "id": 494488,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364327,
+        "name": "Koffler House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660656,
+        "lng": -79.397339,
+        "mapId": 1809,
+        "id": 494489,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364328,
+        "name": "Astronomy & Astrophysics Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660709,
+        "lng": -79.39827,
+        "mapId": 1809,
+        "id": 494490,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364329,
+        "name": "McLennan Physical Laboratories",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66074,
+        "lng": -79.393738,
+        "mapId": 1809,
+        "id": 494491,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364330,
+        "name": "Medical Sciences Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660763,
+        "lng": -79.395943,
+        "mapId": 1809,
+        "id": 494492,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364331,
+        "name": "Simcoe Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66077,
+        "lng": -79.38784,
+        "mapId": 1809,
+        "id": 494493,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364332,
+        "name": "88 College Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660774,
+        "lng": -79.395386,
+        "mapId": 1809,
+        "id": 494494,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364333,
+        "name": "Convocation Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660789,
+        "lng": -79.396576,
+        "mapId": 1809,
+        "id": 494495,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364334,
+        "name": "Myhal Centre for Engineering Innovation and Entrepreneurship",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660828,
+        "lng": -79.400253,
+        "mapId": 1809,
+        "id": 494496,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364335,
+        "name": "Graduate Students' Union",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660931,
+        "lng": -79.399727,
+        "mapId": 1809,
+        "id": 494497,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364336,
+        "name": "Bancroft Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661007,
+        "lng": -79.40078,
+        "mapId": 1809,
+        "id": 494498,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364337,
+        "name": "New College III",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661098,
+        "lng": -79.3993,
+        "mapId": 1809,
+        "id": 494499,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364338,
+        "name": "Earth Sciences Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661106,
+        "lng": -79.392876,
+        "mapId": 1809,
+        "id": 494500,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364339,
+        "name": "McMurrich Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661152,
+        "lng": -79.40049,
+        "mapId": 1809,
+        "id": 494501,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364340,
+        "name": "Faculty Club",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.6614,
+        "lng": -79.397812,
+        "mapId": 1809,
+        "id": 494502,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364341,
+        "name": "Lash Miller Chemical Laboratories",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661762,
+        "lng": -79.400352,
+        "mapId": 1809,
+        "id": 494503,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364342,
+        "name": "Wilson Hall-New College",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66177,
+        "lng": -79.397049,
+        "mapId": 1809,
+        "id": 494504,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364343,
+        "name": "Macdonald-Mowat House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661915,
+        "lng": -79.392921,
+        "mapId": 1809,
+        "id": 494505,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364344,
+        "name": "Canadiana Gallery",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661999,
+        "lng": -79.397118,
+        "mapId": 1809,
+        "id": 494506,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364345,
+        "name": "School of Graduate Studies",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662086,
+        "lng": -79.39666,
+        "mapId": 1809,
+        "id": 494507,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364346,
+        "name": "J. Robert S. Prichard Alumni House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662205,
+        "lng": -79.393845,
+        "mapId": 1809,
+        "id": 494508,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364347,
+        "name": "Gerstein Science Information Centre in the Sigmund Samuel Library Bldg",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662239,
+        "lng": -79.400589,
+        "mapId": 1809,
+        "id": 494509,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364348,
+        "name": "Wetmore Hall-New College",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662376,
+        "lng": -79.398659,
+        "mapId": 1809,
+        "id": 494510,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364349,
+        "name": "Sidney Smith Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66264,
+        "lng": -79.39753,
+        "mapId": 1809,
+        "id": 494511,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364350,
+        "name": "Sir Daniel Wilson Residence",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662788,
+        "lng": -79.401024,
+        "mapId": 1809,
+        "id": 494512,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364351,
+        "name": "Warren Stevens Building (Athletic Centre)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.662945,
+        "lng": -79.4002,
+        "mapId": 1809,
+        "id": 494513,
+        "weight": 3,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364352,
+        "name": "Clara Benson Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663101,
+        "lng": -79.397606,
+        "mapId": 1809,
+        "id": 494514,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364353,
+        "name": "Morrison Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663116,
+        "lng": -79.398987,
+        "mapId": 1809,
+        "id": 494515,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364354,
+        "name": "Ramsay Wright Laboratories",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663147,
+        "lng": -79.394676,
+        "mapId": 1809,
+        "id": 494516,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364355,
+        "name": "Louis B. Stewart Observatory (UTSU)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663197,
+        "lng": -79.395821,
+        "mapId": 1809,
+        "id": 494517,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364356,
+        "name": "University College",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663376,
+        "lng": -79.401642,
+        "mapId": 1809,
+        "id": 494518,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364357,
+        "name": "Graduate House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663383,
+        "lng": -79.397469,
+        "mapId": 1809,
+        "id": 494519,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364358,
+        "name": "University College Union",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663509,
+        "lng": -79.395218,
+        "mapId": 1809,
+        "id": 494520,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364359,
+        "name": "Soldiers' Tower",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.6637,
+        "lng": -79.394516,
+        "mapId": 1809,
+        "id": 494521,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364360,
+        "name": "Hart House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.663754,
+        "lng": -79.397942,
+        "mapId": 1809,
+        "id": 494522,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364361,
+        "name": "Whitney Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66386,
+        "lng": -79.396362,
+        "mapId": 1809,
+        "id": 494523,
+        "weight": 1,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364362,
+        "name": "Back Campus Fields",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66391,
+        "lng": -79.401146,
+        "mapId": 1809,
+        "id": 494524,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364363,
+        "name": "Early Learning Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66404,
+        "lng": -79.389725,
+        "mapId": 1809,
+        "id": 494525,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364364,
+        "name": "90 Wellesley Street West",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664055,
+        "lng": -79.398933,
+        "mapId": 1809,
+        "id": 494526,
+        "weight": 10,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364365,
+        "name": "Thomas Fisher Rare Book Library Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664062,
+        "lng": -79.402039,
+        "mapId": 1809,
+        "id": 494527,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364366,
+        "name": "Fasken Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664242,
+        "lng": -79.390411,
+        "mapId": 1809,
+        "id": 494528,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364367,
+        "name": "39 Queen's Park Crescent East",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66431,
+        "lng": -79.389809,
+        "mapId": 1809,
+        "id": 494529,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364368,
+        "name": "The Centre for Culture and Technology (Faculty of Information/iSchool)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664349,
+        "lng": -79.40107,
+        "mapId": 1809,
+        "id": 494530,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364369,
+        "name": "Luella Massey Studio Theatre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664452,
+        "lng": -79.399452,
+        "mapId": 1809,
+        "id": 494531,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364370,
+        "name": "Robarts Library (John P. Robarts Library Building)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664455,
+        "lng": -79.402229,
+        "mapId": 1809,
+        "id": 494532,
+        "weight": 8,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364371,
+        "name": "665 Spadina Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664574,
+        "lng": -79.400688,
+        "mapId": 1809,
+        "id": 494533,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364372,
+        "name": "370 Huron Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664837,
+        "lng": -79.400894,
+        "mapId": 1809,
+        "id": 494534,
+        "weight": 10,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364373,
+        "name": "Sussex Court",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665012,
+        "lng": -79.40181,
+        "mapId": 1809,
+        "id": 494535,
+        "weight": 10,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364374,
+        "name": "40 Sussex Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66526,
+        "lng": -79.399078,
+        "mapId": 1809,
+        "id": 494536,
+        "weight": 3,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364375,
+        "name": "Claude T. Bissell Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66507,
+        "lng": -79.396355,
+        "mapId": 1809,
+        "id": 494537,
+        "weight": 0,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364376,
+        "name": "John W. Graham Library",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665184,
+        "lng": -79.398285,
+        "mapId": 1809,
+        "id": 494538,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364377,
+        "name": "Rotman School of Management",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.664783,
+        "lng": -79.396629,
+        "mapId": 1809,
+        "id": 494539,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364378,
+        "name": "Munk School of Global Affairs & Public Policy at Trinity",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665398,
+        "lng": -79.403633,
+        "mapId": 1809,
+        "id": 494540,
+        "weight": 8,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364379,
+        "name": "720 Spadina Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665569,
+        "lng": -79.399483,
+        "mapId": 1809,
+        "id": 494541,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364380,
+        "name": "Innis College",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665718,
+        "lng": -79.402649,
+        "mapId": 1809,
+        "id": 494542,
+        "weight": 8,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364381,
+        "name": "703 Spadina Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66592,
+        "lng": -79.398773,
+        "mapId": 1809,
+        "id": 494543,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364382,
+        "name": "Innis College Student Residence",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.665936,
+        "lng": -79.393837,
+        "mapId": 1809,
+        "id": 494544,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364383,
+        "name": "Faculty of Law",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666157,
+        "lng": -79.399696,
+        "mapId": 1809,
+        "id": 494546,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364385,
+        "name": "Max Gluskin House",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666397,
+        "lng": -79.398788,
+        "mapId": 1809,
+        "id": 494547,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364386,
+        "name": "Woodsworth College",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666431,
+        "lng": -79.396431,
+        "mapId": 1809,
+        "id": 494548,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364387,
+        "name": "Varsity Pavilion",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.66655,
+        "lng": -79.394577,
+        "mapId": 1809,
+        "id": 494549,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364388,
+        "name": "Edward Johnson Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666679,
+        "lng": -79.402229,
+        "mapId": 1809,
+        "id": 494550,
+        "weight": 2,
+        "icon": "buiding_66x100_1_1__1.png",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364389,
+        "name": "371 Bloor Street West",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666687,
+        "lng": -79.399101,
+        "mapId": 1809,
+        "id": 494551,
+        "weight": 8,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364390,
+        "name": "121 St. George Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666691,
+        "lng": -79.393959,
+        "mapId": 1809,
+        "id": 494552,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364391,
+        "name": "Falconer Hall",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666706,
+        "lng": -79.399918,
+        "mapId": 1809,
+        "id": 494553,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364392,
+        "name": "School of Continuing Studies",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666901,
+        "lng": -79.399216,
+        "mapId": 1809,
+        "id": 494554,
+        "weight": 9,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364393,
+        "name": "123 St. George Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667107,
+        "lng": -79.40004,
+        "mapId": 1809,
+        "id": 494555,
+        "weight": 9,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364394,
+        "name": "162 St. George Street",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667229,
+        "lng": -79.398399,
+        "mapId": 1809,
+        "id": 494556,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364395,
+        "name": "Goldring Centre for High Performance Sport",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667236,
+        "lng": -79.396294,
+        "mapId": 1809,
+        "id": 494557,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364396,
+        "name": "Varsity Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667332,
+        "lng": -79.39933,
+        "mapId": 1809,
+        "id": 494558,
+        "weight": 12,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364397,
+        "name": "Woodsworth College Residence",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667469,
+        "lng": -79.398521,
+        "mapId": 1809,
+        "id": 494559,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364398,
+        "name": "Munk School of Global Affairs & Public Policy at the Observatory",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.667664,
+        "lng": -79.400322,
+        "mapId": 1809,
+        "id": 494560,
+        "weight": 6,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364399,
+        "name": "Jackman Humanities Building",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.668098,
+        "lng": -79.38765,
+        "mapId": 1809,
+        "id": 494561,
+        "weight": 3,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364400,
+        "name": "35 Charles St. West",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.668114,
+        "lng": -79.400459,
+        "mapId": 1809,
+        "id": 494562,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364401,
+        "name": "Enrolment Services",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.668278,
+        "lng": -79.39846,
+        "mapId": 1809,
+        "id": 494563,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364402,
+        "name": "Ontario Institute for Studies in Education (OISE)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.668293,
+        "lng": -79.397736,
+        "mapId": 1809,
+        "id": 494564,
+        "weight": 5,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364403,
+        "name": "Factor-Inwentash Faculty of Social Work",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.668987,
+        "lng": -79.386482,
+        "mapId": 1809,
+        "id": 494565,
+        "weight": 3,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364404,
+        "name": "30 Charles St. West",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.669674,
+        "lng": -79.406075,
+        "mapId": 1809,
+        "id": 494566,
+        "weight": 4,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 364405,
+        "name": "Dr. Eric Jackman Institute of Child Study",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.654457,
+        "lng": -79.387497,
+        "mapId": 1809,
+        "id": 497526,
+        "weight": 11,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 366238,
+        "name": "439 University Avenue",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65881,
+        "lng": -79.390991,
+        "mapId": 1809,
+        "id": 497527,
+        "weight": 7,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 366239,
+        "name": "700 University",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660381,
+        "lng": -79.389214,
+        "mapId": 1809,
+        "id": 514444,
+        "weight": 0,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 377743,
+        "name": "Schwartz Reisman Innovation Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658363,
+        "lng": -79.383072,
+        "mapId": 1809,
+        "id": 577628,
+        "weight": 0,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 423117,
+        "name": "Chelsea Student Residence",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.661198,
+        "lng": -79.386414,
+        "mapId": 1809,
+        "id": 628280,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 458089,
+        "name": "800 Bay",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.660484,
+        "lng": -79.384453,
+        "mapId": 1809,
+        "id": 628281,
+        "weight": 2,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 458090,
+        "name": "777 Bay",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.666439,
+        "lng": -79.403954,
+        "mapId": 1809,
+        "id": 786040,
+        "weight": 0,
+        "icon": "buiding_66x100_1_2.png",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 587915,
+        "name": "Al Green Theatre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.658146,
+        "lng": -79.385307,
+        "mapId": 1809,
+        "id": 786651,
+        "weight": 0,
+        "icon": "",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 588426,
+        "name": "Health and Wellness Centre",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    },
+    {
+        "catId": 48654,
+        "altitude": 0,
+        "lat": 43.65847,
+        "lng": -79.395569,
+        "mapId": 1809,
+        "id": 794300,
+        "weight": 0,
+        "icon": "buiding_66x100_1_1_.png",
+        "level": [
+            0
+        ],
+        "location_open": "",
+        "marker_feed": {
+            "rate": 0
+        },
+        "mrkId": 594472,
+        "name": "255 Beverley Street (BY)",
+        "reference": "",
+        "schedule": "",
+        "shape": "",
+        "zoom": "",
+        "iconSize": 35
+    }
+]

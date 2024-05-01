@@ -1,0 +1,6362 @@
+[
+    {
+        "firstName": "Lindsey",
+        "lastName": "Shorser",
+        "rating": 5,
+        "numRatings": 59,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Hassan",
+        "lastName": "Abdelrahman",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Andrei",
+        "lastName": "Badescu",
+        "rating": 3.4,
+        "numRatings": 15,
+        "avgDiff": 4,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Yu",
+        "lastName": "Wang",
+        "rating": 2.5,
+        "numRatings": 19,
+        "avgDiff": 3.9,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "Tome",
+        "rating": 3,
+        "numRatings": 3,
+        "avgDiff": 4,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Silvana",
+        "lastName": "Pesenti",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Vicki",
+        "lastName": "Zhang",
+        "rating": 2.4,
+        "numRatings": 50,
+        "avgDiff": 4.5,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Howard",
+        "lastName": "Lyons",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Melissa",
+        "lastName": "Levin",
+        "rating": 4.4,
+        "numRatings": 19,
+        "avgDiff": 3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Aggrey",
+        "lastName": "Wasike",
+        "rating": 4.3,
+        "numRatings": 5,
+        "avgDiff": 1.9,
+        "dep": "Not Specified"
+    },
+    {
+        "firstName": "Alexandra",
+        "lastName": "Rahr",
+        "rating": 4.9,
+        "numRatings": 36,
+        "avgDiff": 3.3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Catia",
+        "lastName": "Dignard",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Spanish"
+    },
+    {
+        "firstName": "Max",
+        "lastName": "Mishler",
+        "rating": 3.6,
+        "numRatings": 22,
+        "avgDiff": 3.3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Uahikea",
+        "lastName": "Maile",
+        "rating": 4.1,
+        "numRatings": 10,
+        "avgDiff": 3.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Dee",
+        "lastName": "Ballyk",
+        "rating": 4.4,
+        "numRatings": 14,
+        "avgDiff": 3.9,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Kristina",
+        "lastName": "Lisk",
+        "rating": 3.6,
+        "numRatings": 8,
+        "avgDiff": 3.5,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Judi",
+        "lastName": "Laprade",
+        "rating": 1.6,
+        "numRatings": 45,
+        "avgDiff": 4.6,
+        "dep": "Physical Education"
+    },
+    {
+        "firstName": "Cindi",
+        "lastName": "Morshead",
+        "rating": 4.9,
+        "numRatings": 6,
+        "avgDiff": 4.2,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Ivan",
+        "lastName": "Kalmar",
+        "rating": 4.3,
+        "numRatings": 132,
+        "avgDiff": 2.8,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Shawn",
+        "lastName": "Lehman",
+        "rating": 4.6,
+        "numRatings": 160,
+        "avgDiff": 2.9,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Katherine",
+        "lastName": "Patton",
+        "rating": 4.5,
+        "numRatings": 7,
+        "avgDiff": 2.5,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Hilary",
+        "lastName": "Duke",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 2.6,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Jesook",
+        "lastName": "Song",
+        "rating": 2.7,
+        "numRatings": 23,
+        "avgDiff": 3.8,
+        "dep": "International Studies"
+    },
+    {
+        "firstName": "Bonnie",
+        "lastName": "McElhinny",
+        "rating": 3.3,
+        "numRatings": 6,
+        "avgDiff": 3.3,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Janelle",
+        "lastName": "Taylor",
+        "rating": 4.1,
+        "numRatings": 6,
+        "avgDiff": 3.6,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Rhan-Ju",
+        "lastName": "Song",
+        "rating": 3,
+        "numRatings": 5,
+        "avgDiff": 4,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Krista",
+        "lastName": "Maxwell",
+        "rating": 3.5,
+        "numRatings": 4,
+        "avgDiff": 3.9,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Edward",
+        "lastName": "Swenson",
+        "rating": 3.8,
+        "numRatings": 6,
+        "avgDiff": 3.8,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Shiho",
+        "lastName": "Satsuka",
+        "rating": 4.4,
+        "numRatings": 4,
+        "avgDiff": 2.8,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Begun",
+        "rating": 3.3,
+        "numRatings": 54,
+        "avgDiff": 3.3,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Sumayya",
+        "lastName": "Kassamali",
+        "rating": 4,
+        "numRatings": 3,
+        "avgDiff": 3.8,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Valentina",
+        "lastName": "Napolitano",
+        "rating": 3,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Amira",
+        "lastName": "Mittermaier",
+        "rating": 3.8,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Near Eastern Studies"
+    },
+    {
+        "firstName": "Kevin",
+        "lastName": "Nixon",
+        "rating": 4.5,
+        "numRatings": 7,
+        "avgDiff": 3.3,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Holly",
+        "lastName": "Wardlow",
+        "rating": 3.3,
+        "numRatings": 40,
+        "avgDiff": 3.5,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Andrea",
+        "lastName": "Allen",
+        "rating": 2.4,
+        "numRatings": 5,
+        "avgDiff": 3.4,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Chazan",
+        "rating": 3.8,
+        "numRatings": 45,
+        "avgDiff": 2.6,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Jonathan",
+        "lastName": "Korman",
+        "rating": 3.9,
+        "numRatings": 57,
+        "avgDiff": 3.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Nicholas",
+        "lastName": "Derzko",
+        "rating": 3.3,
+        "numRatings": 18,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Victor",
+        "lastName": "Ivrii",
+        "rating": 2.4,
+        "numRatings": 28,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Kirill",
+        "lastName": "Serkh",
+        "rating": 4.9,
+        "numRatings": 9,
+        "avgDiff": 3.6,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "McCann",
+        "rating": 2.5,
+        "numRatings": 14,
+        "avgDiff": 3.6,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Justin",
+        "lastName": "Jennings",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3.3,
+        "dep": "Anthropology"
+    },
+    {
+        "firstName": "Philip",
+        "lastName": "Sapirstein",
+        "rating": 4.4,
+        "numRatings": 5,
+        "avgDiff": 3.3,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Reid",
+        "rating": 5,
+        "numRatings": 88,
+        "avgDiff": 2.3,
+        "dep": "Astronomy"
+    },
+    {
+        "firstName": "Ilana",
+        "lastName": "MacDonald",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Astronomy"
+    },
+    {
+        "firstName": "Gwendolyn",
+        "lastName": "Eadie",
+        "rating": 2.9,
+        "numRatings": 7,
+        "avgDiff": 4,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Keith",
+        "lastName": "Vanderlinde",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Astronomy"
+    },
+    {
+        "firstName": "Dae-Sik",
+        "lastName": "Moon",
+        "rating": 2.6,
+        "numRatings": 5,
+        "avgDiff": 3.3,
+        "dep": "Astronomy"
+    },
+    {
+        "firstName": "Joshua",
+        "lastName": "Speagle",
+        "rating": 3.1,
+        "numRatings": 22,
+        "avgDiff": 4,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Stavroula",
+        "lastName": "Andreopoulos",
+        "rating": 2.6,
+        "numRatings": 74,
+        "avgDiff": 4.1,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Christine",
+        "lastName": "Bear",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "Yip",
+        "rating": 2.3,
+        "numRatings": 15,
+        "avgDiff": 3.9,
+        "dep": "Chemical Engineering"
+    },
+    {
+        "firstName": "Liliana",
+        "lastName": "Attisano",
+        "rating": 1.9,
+        "numRatings": 3,
+        "avgDiff": 5,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Amira",
+        "lastName": "Klip",
+        "rating": 2.8,
+        "numRatings": 4,
+        "avgDiff": 3.5,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Rini",
+        "rating": 2.5,
+        "numRatings": 7,
+        "avgDiff": 4.3,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Walid",
+        "lastName": "Houry",
+        "rating": 3.6,
+        "numRatings": 3,
+        "avgDiff": 3.7,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Grant",
+        "lastName": "Brown",
+        "rating": 3.5,
+        "numRatings": 12,
+        "avgDiff": 3.5,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Angus",
+        "lastName": "McQuibban",
+        "rating": 3.3,
+        "numRatings": 7,
+        "avgDiff": 2.6,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Roman",
+        "lastName": "Melnyk",
+        "rating": 4.7,
+        "numRatings": 14,
+        "avgDiff": 2,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Megan",
+        "lastName": "Frederickson",
+        "rating": 5,
+        "numRatings": 75,
+        "avgDiff": 3.8,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Wright",
+        "rating": 4.2,
+        "numRatings": 17,
+        "avgDiff": 2.6,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Kenneth",
+        "lastName": "Yip",
+        "rating": 5,
+        "numRatings": 240,
+        "avgDiff": 3.3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Daphne",
+        "lastName": "Goring",
+        "rating": 3.6,
+        "numRatings": 27,
+        "avgDiff": 3.4,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Melody",
+        "lastName": "Neumann",
+        "rating": 3.1,
+        "numRatings": 25,
+        "avgDiff": 3,
+        "dep": "Molecular Biosciences"
+    },
+    {
+        "firstName": "Nicole",
+        "lastName": "Mideo",
+        "rating": 4.1,
+        "numRatings": 34,
+        "avgDiff": 3.5,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Stinchcombe",
+        "rating": 4,
+        "numRatings": 44,
+        "avgDiff": 3.5,
+        "dep": "Botany"
+    },
+    {
+        "firstName": "Heather",
+        "lastName": "McFarlane",
+        "rating": 3.9,
+        "numRatings": 16,
+        "avgDiff": 2.9,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Tammy",
+        "lastName": "Sage",
+        "rating": 3.5,
+        "numRatings": 28,
+        "avgDiff": 3.4,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "McCourt",
+        "rating": 3.4,
+        "numRatings": 35,
+        "avgDiff": 4,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "Garside",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Jessica",
+        "lastName": "Pressey",
+        "rating": 3.4,
+        "numRatings": 24,
+        "avgDiff": 3.8,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Paolo",
+        "lastName": "Granata",
+        "rating": 4.6,
+        "numRatings": 50,
+        "avgDiff": 3,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Iris",
+        "lastName": "Gildea",
+        "rating": 3.4,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "Media Studies"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "O'Connor",
+        "rating": 4,
+        "numRatings": 9,
+        "avgDiff": 3.4,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Felan",
+        "lastName": "Parker",
+        "rating": 4.8,
+        "numRatings": 18,
+        "avgDiff": 2.8,
+        "dep": "Media Studies"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Whissell",
+        "rating": 5,
+        "numRatings": 250,
+        "avgDiff": 3.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Whissell",
+        "rating": 5,
+        "numRatings": 250,
+        "avgDiff": 3.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Takashi",
+        "lastName": "Fujitani",
+        "rating": 1.3,
+        "numRatings": 3,
+        "avgDiff": 4.7,
+        "dep": "Contemporary Asian Studies"
+    },
+    {
+        "firstName": "Siobhan",
+        "lastName": "O'Flynn",
+        "rating": 4.6,
+        "numRatings": 7,
+        "avgDiff": 2.4,
+        "dep": "English"
+    },
+    {
+        "firstName": "Rosa",
+        "lastName": "Saverino",
+        "rating": 4.9,
+        "numRatings": 16,
+        "avgDiff": 3.4,
+        "dep": "French"
+    },
+    {
+        "firstName": "Rick",
+        "lastName": "Salutin",
+        "rating": 2.8,
+        "numRatings": 22,
+        "avgDiff": 2.5,
+        "dep": "English"
+    },
+    {
+        "firstName": "Killian",
+        "lastName": "McCormack",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Gibbs",
+        "rating": 4.4,
+        "numRatings": 16,
+        "avgDiff": 3.6,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Reid",
+        "lastName": "Locklin",
+        "rating": 4.6,
+        "numRatings": 16,
+        "avgDiff": 3.2,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Giulio",
+        "lastName": "Silano",
+        "rating": 2.8,
+        "numRatings": 42,
+        "avgDiff": 3.4,
+        "dep": "History"
+    },
+    {
+        "firstName": "Mima",
+        "lastName": "Staikova",
+        "rating": 1.9,
+        "numRatings": 46,
+        "avgDiff": 3.3,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Kristine",
+        "lastName": "Quinlan",
+        "rating": 5.1,
+        "numRatings": 23,
+        "avgDiff": 3.8,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Browning",
+        "rating": 4.4,
+        "numRatings": 284,
+        "avgDiff": 3.5,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Gilbert",
+        "lastName": "Walker",
+        "rating": 3.9,
+        "numRatings": 21,
+        "avgDiff": 2.8,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Jockusch",
+        "rating": 2.3,
+        "numRatings": 6,
+        "avgDiff": 3.8,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Eugenia",
+        "lastName": "Kumacheva",
+        "rating": 3.9,
+        "numRatings": 26,
+        "avgDiff": 2.9,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Eugenia",
+        "lastName": "Kumacheva",
+        "rating": 3.9,
+        "numRatings": 26,
+        "avgDiff": 2.9,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Nitz",
+        "rating": 4.8,
+        "numRatings": 17,
+        "avgDiff": 3.4,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Nitz",
+        "rating": 4.8,
+        "numRatings": 17,
+        "avgDiff": 3.4,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Helen",
+        "lastName": "Tran",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Andrei",
+        "lastName": "Yudin",
+        "rating": 4.3,
+        "numRatings": 28,
+        "avgDiff": 3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Marvin",
+        "lastName": "Morales",
+        "rating": 3.6,
+        "numRatings": 17,
+        "avgDiff": 4.3,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Douglas",
+        "lastName": "Stephan",
+        "rating": 3.4,
+        "numRatings": 7,
+        "avgDiff": 3,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Al-Amin",
+        "lastName": "Dhirani",
+        "rating": 3.1,
+        "numRatings": 24,
+        "avgDiff": 3.6,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Ronald",
+        "lastName": "Kluger",
+        "rating": 2.3,
+        "numRatings": 37,
+        "avgDiff": 3.6,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Murphy",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "R. J. Dwayne",
+        "lastName": "Miller",
+        "rating": 2,
+        "numRatings": 10,
+        "avgDiff": 4.3,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Jeremy",
+        "lastName": "Schofield",
+        "rating": 2.8,
+        "numRatings": 62,
+        "avgDiff": 3.9,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Wilson",
+        "rating": 4.5,
+        "numRatings": 13,
+        "avgDiff": 3.4,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Datong",
+        "lastName": "Song",
+        "rating": 3.2,
+        "numRatings": 18,
+        "avgDiff": 3.4,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Taylor",
+        "rating": 4.4,
+        "numRatings": 15,
+        "avgDiff": 2.9,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Aaron",
+        "lastName": "Wheeler",
+        "rating": 4.9,
+        "numRatings": 17,
+        "avgDiff": 2.5,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Hui",
+        "lastName": "Peng",
+        "rating": 4.8,
+        "numRatings": 3,
+        "avgDiff": 3.8,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Jik",
+        "lastName": "Chin",
+        "rating": 3,
+        "numRatings": 51,
+        "avgDiff": 3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Geoffrey",
+        "lastName": "Ozin",
+        "rating": 4.6,
+        "numRatings": 7,
+        "avgDiff": 2.9,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Dvira",
+        "lastName": "Segal",
+        "rating": 3,
+        "numRatings": 8,
+        "avgDiff": 2.8,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Morris",
+        "rating": 2.6,
+        "numRatings": 7,
+        "avgDiff": 3.6,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Lautens",
+        "rating": 3.7,
+        "numRatings": 15,
+        "avgDiff": 3.9,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Dwight",
+        "lastName": "Seferos",
+        "rating": 3.1,
+        "numRatings": 14,
+        "avgDiff": 3.6,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Mike",
+        "lastName": "Meneghetti",
+        "rating": 4,
+        "numRatings": 7,
+        "avgDiff": 2.6,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Corinn",
+        "lastName": "Columpar",
+        "rating": 3.9,
+        "numRatings": 59,
+        "avgDiff": 3.6,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Patrick",
+        "lastName": "Keilty",
+        "rating": 3.5,
+        "numRatings": 2,
+        "avgDiff": 2.5,
+        "dep": "Information Science"
+    },
+    {
+        "firstName": "Kass",
+        "lastName": "Banning",
+        "rating": 2.9,
+        "numRatings": 32,
+        "avgDiff": 3.8,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Charlie",
+        "lastName": "Keil",
+        "rating": 4.6,
+        "numRatings": 72,
+        "avgDiff": 2.8,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Angelica",
+        "lastName": "Fenner",
+        "rating": 4,
+        "numRatings": 9,
+        "avgDiff": 2.4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Angelica",
+        "lastName": "Fenner",
+        "rating": 4,
+        "numRatings": 9,
+        "avgDiff": 2.4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Bart",
+        "lastName": "Testa",
+        "rating": 3.3,
+        "numRatings": 99,
+        "avgDiff": 3.6,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Yigal",
+        "lastName": "Nizri",
+        "rating": 5,
+        "numRatings": 11,
+        "avgDiff": 2.6,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Regina",
+        "lastName": "Hoeschele",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Rachel",
+        "lastName": "Barney",
+        "rating": 3.5,
+        "numRatings": 14,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Kevin",
+        "lastName": "Wilkinson",
+        "rating": 3.7,
+        "numRatings": 8,
+        "avgDiff": 3,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Taylor",
+        "lastName": "Stark",
+        "rating": 4,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Naomi",
+        "lastName": "Neufeld",
+        "rating": 2.1,
+        "numRatings": 5,
+        "avgDiff": 2.6,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Ephraim",
+        "lastName": "Lytle",
+        "rating": 3.3,
+        "numRatings": 16,
+        "avgDiff": 3.1,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Jarrett",
+        "lastName": "Welsh",
+        "rating": 4.1,
+        "numRatings": 5,
+        "avgDiff": 3.3,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Ben",
+        "lastName": "Akrigg",
+        "rating": 4.8,
+        "numRatings": 22,
+        "avgDiff": 2.8,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Drew",
+        "lastName": "Davis",
+        "rating": 4.9,
+        "numRatings": 7,
+        "avgDiff": 3.6,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Christer",
+        "lastName": "Bruun",
+        "rating": 2.1,
+        "numRatings": 16,
+        "avgDiff": 4.6,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Seth",
+        "lastName": "Bernard",
+        "rating": 4.3,
+        "numRatings": 19,
+        "avgDiff": 3.2,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "Gianmarco",
+        "lastName": "Bianchini",
+        "rating": 4.8,
+        "numRatings": 3,
+        "avgDiff": 1.4,
+        "dep": "Classics"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Livingston-Lowe",
+        "rating": 4.3,
+        "numRatings": 5,
+        "avgDiff": 2.6,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "McGowan",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "History"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Wilson",
+        "rating": 4.9,
+        "numRatings": 17,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Vervaeke",
+        "rating": 4.3,
+        "numRatings": 13,
+        "avgDiff": 3.6,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "James",
+        "lastName": "John",
+        "rating": 4.9,
+        "numRatings": 9,
+        "avgDiff": 2.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Myrto",
+        "lastName": "Grigoroglou",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Emanuel",
+        "lastName": "Istrate",
+        "rating": 4.4,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Sunil",
+        "lastName": "Johal",
+        "rating": 4.1,
+        "numRatings": 6,
+        "avgDiff": 3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Andrea",
+        "lastName": "Most",
+        "rating": 4.1,
+        "numRatings": 22,
+        "avgDiff": 2.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Joanna",
+        "lastName": "Papayiannis",
+        "rating": 3.6,
+        "numRatings": 13,
+        "avgDiff": 3.6,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "George Elliott",
+        "lastName": "Clarke",
+        "rating": 3.4,
+        "numRatings": 27,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Adrien",
+        "lastName": "Zakar",
+        "rating": 5,
+        "numRatings": 14,
+        "avgDiff": 2.8,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Zachary",
+        "lastName": "Levinsky",
+        "rating": 3.1,
+        "numRatings": 4,
+        "avgDiff": 3.6,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Catherine",
+        "lastName": "Evans",
+        "rating": 4.7,
+        "numRatings": 12,
+        "avgDiff": 3.2,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Adriel",
+        "lastName": "Weaver",
+        "rating": 5,
+        "numRatings": 27,
+        "avgDiff": 3.3,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Vincent",
+        "lastName": "Chiao",
+        "rating": 3.1,
+        "numRatings": 5,
+        "avgDiff": 3.6,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Akwasi",
+        "lastName": "Owusu-Bempah",
+        "rating": 4.2,
+        "numRatings": 8,
+        "avgDiff": 2.9,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Beatrice",
+        "lastName": "Jauregui",
+        "rating": 3.3,
+        "numRatings": 15,
+        "avgDiff": 3.6,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Julius",
+        "lastName": "Haag",
+        "rating": 2.4,
+        "numRatings": 7,
+        "avgDiff": 3.6,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Mary",
+        "lastName": "Mitchell",
+        "rating": 2.8,
+        "numRatings": 12,
+        "avgDiff": 4.3,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Caitlyn",
+        "lastName": "McGeer",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Criminal Justice"
+    },
+    {
+        "firstName": "Boris",
+        "lastName": "Steipe",
+        "rating": 3.2,
+        "numRatings": 10,
+        "avgDiff": 3.9,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Maurice",
+        "lastName": "Ringuette",
+        "rating": 2.7,
+        "numRatings": 18,
+        "avgDiff": 3.5,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "Berleth",
+        "rating": 4.4,
+        "numRatings": 11,
+        "avgDiff": 2.6,
+        "dep": "Botany"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Coleman",
+        "rating": 4.6,
+        "numRatings": 5,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Ritu",
+        "lastName": "Sarpal",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Shelley",
+        "lastName": "Lumba",
+        "rating": 1.9,
+        "numRatings": 4,
+        "avgDiff": 5,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Mitchell",
+        "rating": 3.5,
+        "numRatings": 9,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Tony",
+        "lastName": "Harris",
+        "rating": 4.1,
+        "numRatings": 17,
+        "avgDiff": 4.6,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Eiji",
+        "lastName": "Nambara",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Keiko",
+        "lastName": "Yoshioka",
+        "rating": 3.3,
+        "numRatings": 12,
+        "avgDiff": 3.4,
+        "dep": "Botany"
+    },
+    {
+        "firstName": "Alan",
+        "lastName": "Moses",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Darrell",
+        "lastName": "Desveaux",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Guttman",
+        "rating": 3.1,
+        "numRatings": 18,
+        "avgDiff": 3.9,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Belinda",
+        "lastName": "Chang",
+        "rating": 2.3,
+        "numRatings": 95,
+        "avgDiff": 4.1,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Jacqueline",
+        "lastName": "Smith",
+        "rating": 3.6,
+        "numRatings": 25,
+        "avgDiff": 2.8,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Demetres",
+        "lastName": "Kostas",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Liu",
+        "rating": 4.8,
+        "numRatings": 75,
+        "avgDiff": 3.4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Jonathan",
+        "lastName": "Calver",
+        "rating": 4.5,
+        "numRatings": 18,
+        "avgDiff": 2.5,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Diane",
+        "lastName": "Horton",
+        "rating": 4.4,
+        "numRatings": 87,
+        "avgDiff": 3.9,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Gary",
+        "lastName": "Baumgartner",
+        "rating": 3.8,
+        "numRatings": 80,
+        "avgDiff": 3.4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Francois",
+        "lastName": "Pitt",
+        "rating": 5,
+        "numRatings": 127,
+        "avgDiff": 4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Allan",
+        "lastName": "Borodin",
+        "rating": 2,
+        "numRatings": 37,
+        "avgDiff": 3.8,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Gerald",
+        "lastName": "Penn",
+        "rating": 3.1,
+        "numRatings": 14,
+        "avgDiff": 4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Gries",
+        "rating": 4.9,
+        "numRatings": 100,
+        "avgDiff": 3,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Sun",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Faith",
+        "lastName": "Ellen",
+        "rating": 4,
+        "numRatings": 16,
+        "avgDiff": 4.1,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Mario",
+        "lastName": "Badr",
+        "rating": 4.6,
+        "numRatings": 45,
+        "avgDiff": 2.8,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Steve",
+        "lastName": "Engels",
+        "rating": 3.9,
+        "numRatings": 88,
+        "avgDiff": 3.8,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Sam",
+        "lastName": "Toueg",
+        "rating": 4.8,
+        "numRatings": 42,
+        "avgDiff": 4.1,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Bahar",
+        "lastName": "Aameri",
+        "rating": 4.6,
+        "numRatings": 26,
+        "avgDiff": 3.4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Aleksandar",
+        "lastName": "Nikolov",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Alice",
+        "lastName": "Gao",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Fanny",
+        "lastName": "Chevalier",
+        "rating": 3.5,
+        "numRatings": 9,
+        "avgDiff": 3.5,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Christina",
+        "lastName": "Christara",
+        "rating": 2.4,
+        "numRatings": 4,
+        "avgDiff": 4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Nisarg",
+        "lastName": "Shah",
+        "rating": 4.8,
+        "numRatings": 6,
+        "avgDiff": 3.2,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Nathan",
+        "lastName": "Wiebe",
+        "rating": 5,
+        "numRatings": 7,
+        "avgDiff": 4.6,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Elias",
+        "lastName": "Adum",
+        "rating": 1.4,
+        "numRatings": 5,
+        "avgDiff": 1.9,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Azadeh",
+        "lastName": "Farzan",
+        "rating": 3.3,
+        "numRatings": 40,
+        "avgDiff": 3.8,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Babak",
+        "lastName": "Taati",
+        "rating": 3.4,
+        "numRatings": 12,
+        "avgDiff": 4,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Anne",
+        "lastName": "McGuire",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 2.9,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Beth",
+        "lastName": "Fischer",
+        "rating": 3.8,
+        "numRatings": 24,
+        "avgDiff": 2.8,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Jon",
+        "lastName": "Johnson",
+        "rating": 4.5,
+        "numRatings": 6,
+        "avgDiff": 3.3,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Guillermo",
+        "lastName": "Verdecchia",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Theater"
+    },
+    {
+        "firstName": "Seika",
+        "lastName": "Boye",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Theater"
+    },
+    {
+        "firstName": "Pia",
+        "lastName": "Kleber",
+        "rating": 2.1,
+        "numRatings": 10,
+        "avgDiff": 3.4,
+        "dep": "Theater"
+    },
+    {
+        "firstName": "Francesco",
+        "lastName": "Gagliardi",
+        "rating": 3.9,
+        "numRatings": 12,
+        "avgDiff": 2.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Antje",
+        "lastName": "Budde",
+        "rating": 1,
+        "numRatings": 3,
+        "avgDiff": 3,
+        "dep": "Theater"
+    },
+    {
+        "firstName": "Naomi",
+        "lastName": "Seidman",
+        "rating": 4.1,
+        "numRatings": 6,
+        "avgDiff": 3.1,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Shternshis",
+        "rating": 3.8,
+        "numRatings": 13,
+        "avgDiff": 2.7,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Hsiao-Wei",
+        "lastName": "Rupprecht",
+        "rating": 4.3,
+        "numRatings": 10,
+        "avgDiff": 3.5,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Yanfei",
+        "lastName": "Li",
+        "rating": 3.7,
+        "numRatings": 7,
+        "avgDiff": 3.4,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Yurou",
+        "lastName": "Zhong",
+        "rating": 4.3,
+        "numRatings": 12,
+        "avgDiff": 3.3,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Jisuk",
+        "lastName": "Park",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 2.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Ikuko",
+        "lastName": "Komuro-Lee",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Yukiko",
+        "lastName": "Yoshizumi",
+        "rating": 2.5,
+        "numRatings": 4,
+        "avgDiff": 4.5,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Lisa",
+        "lastName": "Yoneyama",
+        "rating": 2,
+        "numRatings": 18,
+        "avgDiff": 4.2,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Atsuko",
+        "lastName": "Sakaki",
+        "rating": 3.9,
+        "numRatings": 12,
+        "avgDiff": 3.2,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Ken",
+        "lastName": "Kawashima",
+        "rating": 3.6,
+        "numRatings": 21,
+        "avgDiff": 3.1,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Yujeong",
+        "lastName": "Choi",
+        "rating": 4,
+        "numRatings": 5,
+        "avgDiff": 3.1,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Kyongbin",
+        "lastName": "Kim",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 1,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Jotaro",
+        "lastName": "Arimori",
+        "rating": 4.8,
+        "numRatings": 9,
+        "avgDiff": 2.8,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Eric",
+        "lastName": "Cazdyn",
+        "rating": 4.5,
+        "numRatings": 27,
+        "avgDiff": 3.5,
+        "dep": "Film"
+    },
+    {
+        "firstName": "Graham",
+        "lastName": "Sanders",
+        "rating": 4.1,
+        "numRatings": 23,
+        "avgDiff": 2.1,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Andre",
+        "lastName": "Schmid",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Yue",
+        "lastName": "Meng",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Amanda",
+        "lastName": "Goodman",
+        "rating": 3.6,
+        "numRatings": 18,
+        "avgDiff": 2.8,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Janet",
+        "lastName": "Poole",
+        "rating": 4.2,
+        "numRatings": 7,
+        "avgDiff": 3.3,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Kripa",
+        "lastName": "Freitas",
+        "rating": 2.4,
+        "numRatings": 24,
+        "avgDiff": 4.2,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Gazzale",
+        "rating": 4.1,
+        "numRatings": 255,
+        "avgDiff": 5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Loren",
+        "lastName": "Brandt",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Abdollah",
+        "lastName": "Farhoodi",
+        "rating": 2.1,
+        "numRatings": 31,
+        "avgDiff": 3.9,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Avi",
+        "lastName": "Cohen",
+        "rating": 2.8,
+        "numRatings": 85,
+        "avgDiff": 3.3,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Masoud",
+        "lastName": "Anjomshoa",
+        "rating": 3.2,
+        "numRatings": 146,
+        "avgDiff": 3.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Nazanin",
+        "lastName": "Khazra",
+        "rating": 3.8,
+        "numRatings": 29,
+        "avgDiff": 3.3,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Laura",
+        "lastName": "Turner",
+        "rating": 2.5,
+        "numRatings": 7,
+        "avgDiff": 3,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Terry",
+        "lastName": "Yip",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Ajaz",
+        "lastName": "Hussain",
+        "rating": 2.8,
+        "numRatings": 210,
+        "avgDiff": 4.9,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Steinberg",
+        "rating": 4.3,
+        "numRatings": 19,
+        "avgDiff": 2.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Murat",
+        "lastName": "Celik",
+        "rating": 4.8,
+        "numRatings": 13,
+        "avgDiff": 2.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Murdock",
+        "rating": 3.6,
+        "numRatings": 153,
+        "avgDiff": 4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Quinlan",
+        "lastName": "Lee",
+        "rating": 4.5,
+        "numRatings": 8,
+        "avgDiff": 3.1,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Shari",
+        "lastName": "Eli",
+        "rating": 5,
+        "numRatings": 18,
+        "avgDiff": 2.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Victor",
+        "lastName": "Aguirregabiria",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 4.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Adonis",
+        "lastName": "Yatchew",
+        "rating": 2.5,
+        "numRatings": 29,
+        "avgDiff": 3.6,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Barber",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Kieran",
+        "lastName": "Furlong",
+        "rating": 3.6,
+        "numRatings": 164,
+        "avgDiff": 3.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Arthur",
+        "lastName": "Blouin",
+        "rating": 3.2,
+        "numRatings": 9,
+        "avgDiff": 3.8,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Alexopoulos",
+        "rating": 2.8,
+        "numRatings": 21,
+        "avgDiff": 3.9,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Marcin",
+        "lastName": "Peski",
+        "rating": 3.6,
+        "numRatings": 11,
+        "avgDiff": 4.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Tianyi",
+        "lastName": "Wang",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Aloysius",
+        "lastName": "Siow",
+        "rating": 2,
+        "numRatings": 22,
+        "avgDiff": 4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Baker",
+        "rating": 4.8,
+        "numRatings": 15,
+        "avgDiff": 3,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "George",
+        "lastName": "Georgopoulos",
+        "rating": 1.8,
+        "numRatings": 3,
+        "avgDiff": 4.8,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "D'Souza",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Yao",
+        "lastName": "Luo",
+        "rating": 1.6,
+        "numRatings": 10,
+        "avgDiff": 4.2,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Diego",
+        "lastName": "Restuccia",
+        "rating": 4.3,
+        "numRatings": 8,
+        "avgDiff": 3.2,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Morrow",
+        "rating": 3.1,
+        "numRatings": 13,
+        "avgDiff": 3.2,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Jordi",
+        "lastName": "Mondria",
+        "rating": 3.6,
+        "numRatings": 15,
+        "avgDiff": 3.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Clementine",
+        "lastName": "Van Effenterre",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Gustavo",
+        "lastName": "Bobonis",
+        "rating": 3.8,
+        "numRatings": 10,
+        "avgDiff": 4.1,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Courtney",
+        "lastName": "Ward",
+        "rating": 4.4,
+        "numRatings": 6,
+        "avgDiff": 4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Martin",
+        "lastName": "Burda",
+        "rating": 4.6,
+        "numRatings": 12,
+        "avgDiff": 3.1,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Yuanyuan",
+        "lastName": "Wan",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Yanyou",
+        "lastName": "Chen",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Eva",
+        "lastName": "Vivalt",
+        "rating": 1,
+        "numRatings": 7,
+        "avgDiff": 4.4,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Colin",
+        "lastName": "Stewart",
+        "rating": 4.5,
+        "numRatings": 6,
+        "avgDiff": 3.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Christian",
+        "lastName": "Gourieroux",
+        "rating": 2.6,
+        "numRatings": 4,
+        "avgDiff": 3.9,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Kory",
+        "lastName": "Kroft",
+        "rating": 5,
+        "numRatings": 5,
+        "avgDiff": 2.3,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Yiola",
+        "lastName": "Cleovoulou",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Education"
+    },
+    {
+        "firstName": "Rie",
+        "lastName": "Kijima",
+        "rating": 2.4,
+        "numRatings": 7,
+        "avgDiff": 3,
+        "dep": "Education"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Mighton",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Education"
+    },
+    {
+        "firstName": "Karen",
+        "lastName": "Williams",
+        "rating": 1,
+        "numRatings": 4,
+        "avgDiff": 4.5,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Jacqueline",
+        "lastName": "Sztepanacz",
+        "rating": 2.4,
+        "numRatings": 24,
+        "avgDiff": 4,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Shelby",
+        "lastName": "Riskin",
+        "rating": 5,
+        "numRatings": 24,
+        "avgDiff": 2.9,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Gerardo",
+        "lastName": "Deiuliis",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Rowan",
+        "lastName": "Sage",
+        "rating": 4.1,
+        "numRatings": 26,
+        "avgDiff": 2.9,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Asher",
+        "lastName": "Cutter",
+        "rating": 2.9,
+        "numRatings": 15,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Aneil",
+        "lastName": "Agrawal",
+        "rating": 4.1,
+        "numRatings": 12,
+        "avgDiff": 3.8,
+        "dep": "Zoology"
+    },
+    {
+        "firstName": "Dominik",
+        "lastName": "Halas",
+        "rating": 3,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Helen",
+        "lastName": "Rodd",
+        "rating": 4.3,
+        "numRatings": 6,
+        "avgDiff": 2.2,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "Laughlin",
+        "rating": 4.7,
+        "numRatings": 5,
+        "avgDiff": 3.2,
+        "dep": "English"
+    },
+    {
+        "firstName": "Nick",
+        "lastName": "Mount",
+        "rating": 4.4,
+        "numRatings": 166,
+        "avgDiff": 2.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Thom",
+        "lastName": "Dancer",
+        "rating": 4.6,
+        "numRatings": 29,
+        "avgDiff": 2.4,
+        "dep": "English"
+    },
+    {
+        "firstName": "Alan",
+        "lastName": "Ackerman",
+        "rating": 2.5,
+        "numRatings": 80,
+        "avgDiff": 3.4,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Carroll",
+        "lastName": "Balot",
+        "rating": 3.5,
+        "numRatings": 48,
+        "avgDiff": 3.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Misha",
+        "lastName": "Teramura",
+        "rating": 4.5,
+        "numRatings": 15,
+        "avgDiff": 2.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Sergi",
+        "rating": 4,
+        "numRatings": 37,
+        "avgDiff": 3.3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Simon",
+        "lastName": "Dickie",
+        "rating": 2.6,
+        "numRatings": 68,
+        "avgDiff": 3.8,
+        "dep": "English"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Rayter",
+        "rating": 3.6,
+        "numRatings": 60,
+        "avgDiff": 3.3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Cobb",
+        "rating": 4,
+        "numRatings": 57,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Smaro",
+        "lastName": "Kamboureli",
+        "rating": 3.6,
+        "numRatings": 5,
+        "avgDiff": 2.6,
+        "dep": "English"
+    },
+    {
+        "firstName": "Tania",
+        "lastName": "Aguila-Way",
+        "rating": 3.6,
+        "numRatings": 4,
+        "avgDiff": 2.4,
+        "dep": "English"
+    },
+    {
+        "firstName": "Cheryl",
+        "lastName": "Suzack",
+        "rating": 2.5,
+        "numRatings": 29,
+        "avgDiff": 3.7,
+        "dep": "English"
+    },
+    {
+        "firstName": "Rijuta",
+        "lastName": "Mehta",
+        "rating": 4.4,
+        "numRatings": 9,
+        "avgDiff": 3.6,
+        "dep": "English"
+    },
+    {
+        "firstName": "Carol",
+        "lastName": "Percy",
+        "rating": 4.3,
+        "numRatings": 35,
+        "avgDiff": 3.6,
+        "dep": "English"
+    },
+    {
+        "firstName": "Karl",
+        "lastName": "Manis",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Mary",
+        "lastName": "Pugh",
+        "rating": 4.5,
+        "numRatings": 35,
+        "avgDiff": 3.3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Claire",
+        "lastName": "Battershill",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "English"
+    },
+    {
+        "firstName": "Karen",
+        "lastName": "Weisman",
+        "rating": 3.3,
+        "numRatings": 17,
+        "avgDiff": 2.8,
+        "dep": "English"
+    },
+    {
+        "firstName": "Lynne",
+        "lastName": "Magnusson",
+        "rating": 3.7,
+        "numRatings": 3,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "Keymer",
+        "rating": 4.8,
+        "numRatings": 12,
+        "avgDiff": 3.1,
+        "dep": "English"
+    },
+    {
+        "firstName": "Cannon",
+        "lastName": "Schmitt",
+        "rating": 4.8,
+        "numRatings": 5,
+        "avgDiff": 3.2,
+        "dep": "English"
+    },
+    {
+        "firstName": "Philippa",
+        "lastName": "Sheppard",
+        "rating": 4.8,
+        "numRatings": 14,
+        "avgDiff": 2.8,
+        "dep": "English"
+    },
+    {
+        "firstName": "Ming",
+        "lastName": "Xie",
+        "rating": 4.4,
+        "numRatings": 23,
+        "avgDiff": 2.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Vikki",
+        "lastName": "Visvis",
+        "rating": 4.9,
+        "numRatings": 114,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Dana",
+        "lastName": "Seitler",
+        "rating": 4.4,
+        "numRatings": 27,
+        "avgDiff": 3.5,
+        "dep": "English"
+    },
+    {
+        "firstName": "Audrey",
+        "lastName": "Jaffe",
+        "rating": 2.5,
+        "numRatings": 24,
+        "avgDiff": 4,
+        "dep": "English"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Downes",
+        "rating": 3.8,
+        "numRatings": 39,
+        "avgDiff": 3.7,
+        "dep": "English"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "McGill",
+        "rating": 4.3,
+        "numRatings": 27,
+        "avgDiff": 2.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Naomi",
+        "lastName": "Morgenstern",
+        "rating": 2.8,
+        "numRatings": 29,
+        "avgDiff": 3.9,
+        "dep": "English"
+    },
+    {
+        "firstName": "Sara",
+        "lastName": "Salih",
+        "rating": 2.4,
+        "numRatings": 32,
+        "avgDiff": 3.7,
+        "dep": "English"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Grav",
+        "rating": 3.6,
+        "numRatings": 12,
+        "avgDiff": 3.2,
+        "dep": "English"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Stevens",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "English"
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Hernandez",
+        "rating": 4.5,
+        "numRatings": 14,
+        "avgDiff": 3.5,
+        "dep": "English"
+    },
+    {
+        "firstName": "Simon",
+        "lastName": "Appolloni",
+        "rating": 5,
+        "numRatings": 43,
+        "avgDiff": 3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Steve",
+        "lastName": "Easterbrook",
+        "rating": 3.2,
+        "numRatings": 16,
+        "avgDiff": 2.9,
+        "dep": "Computer Science"
+    },
+    {
+        "firstName": "Karen",
+        "lastName": "Ing",
+        "rating": 3,
+        "numRatings": 61,
+        "avgDiff": 3.6,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Christian",
+        "lastName": "Abizaid",
+        "rating": 4,
+        "numRatings": 8,
+        "avgDiff": 2.5,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Brad",
+        "lastName": "Bass",
+        "rating": 3.7,
+        "numRatings": 4,
+        "avgDiff": 2,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Vianey",
+        "lastName": "Leos Barajas",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Clare",
+        "lastName": "Wiseman",
+        "rating": 1.7,
+        "numRatings": 3,
+        "avgDiff": 4,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Graham",
+        "lastName": "Rempe",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Sider",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Teresa",
+        "lastName": "Kramarz",
+        "rating": 2.2,
+        "numRatings": 12,
+        "avgDiff": 4.2,
+        "dep": "International Studies"
+    },
+    {
+        "firstName": "Lisa",
+        "lastName": "Tutty",
+        "rating": 2,
+        "numRatings": 106,
+        "avgDiff": 5,
+        "dep": "Geology"
+    },
+    {
+        "firstName": "Ulrich",
+        "lastName": "Wortmann",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Melissa",
+        "lastName": "Anderson",
+        "rating": 5,
+        "numRatings": 9,
+        "avgDiff": 2.4,
+        "dep": "Geology"
+    },
+    {
+        "firstName": "Miriam",
+        "lastName": "Diamond",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Xu",
+        "lastName": "Chu",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Geology"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Austin",
+        "rating": 4.4,
+        "numRatings": 32,
+        "avgDiff": 2.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Carl",
+        "lastName": "Knappett",
+        "rating": 2.3,
+        "numRatings": 4,
+        "avgDiff": 1.8,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Adam",
+        "lastName": "Cohen",
+        "rating": 4.3,
+        "numRatings": 34,
+        "avgDiff": 3.4,
+        "dep": "Fine Arts"
+    },
+    {
+        "firstName": "Colin",
+        "lastName": "Murray",
+        "rating": 4.3,
+        "numRatings": 17,
+        "avgDiff": 3.6,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Rupert",
+        "lastName": "Nuttle",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Gary",
+        "lastName": "Wang",
+        "rating": 4.9,
+        "numRatings": 4,
+        "avgDiff": 2.6,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Heba",
+        "lastName": "Mostafa",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Ethan Matt",
+        "lastName": "Kavaler",
+        "rating": 4.2,
+        "numRatings": 31,
+        "avgDiff": 3.1,
+        "dep": "Fine Arts"
+    },
+    {
+        "firstName": "Christy",
+        "lastName": "Anderson",
+        "rating": 3.7,
+        "numRatings": 54,
+        "avgDiff": 3.1,
+        "dep": "Fine Arts"
+    },
+    {
+        "firstName": "Giancarla",
+        "lastName": "Periti",
+        "rating": 4.2,
+        "numRatings": 9,
+        "avgDiff": 3.3,
+        "dep": "Art History"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Wolff",
+        "rating": 2.3,
+        "numRatings": 11,
+        "avgDiff": 3.6,
+        "dep": "Architecture"
+    },
+    {
+        "firstName": "Marie-Anne",
+        "lastName": "Visoi",
+        "rating": 4.6,
+        "numRatings": 10,
+        "avgDiff": 2.3,
+        "dep": "French"
+    },
+    {
+        "firstName": "Sean",
+        "lastName": "Thomas",
+        "rating": 4,
+        "numRatings": 18,
+        "avgDiff": 3,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Benjamin",
+        "lastName": "Kuttner",
+        "rating": 3,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Sandy",
+        "lastName": "Smith",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Carlos",
+        "lastName": "Avendano",
+        "rating": 4.6,
+        "numRatings": 14,
+        "avgDiff": 2.4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Mike",
+        "lastName": "Wotton",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Environmental Studies"
+    },
+    {
+        "firstName": "Ewan",
+        "lastName": "Dunbar",
+        "rating": 2.4,
+        "numRatings": 5,
+        "avgDiff": 3.2,
+        "dep": "French"
+    },
+    {
+        "firstName": "Andreas",
+        "lastName": "Motsch",
+        "rating": 1.6,
+        "numRatings": 19,
+        "avgDiff": 4.2,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Bello",
+        "rating": 4,
+        "numRatings": 9,
+        "avgDiff": 2.9,
+        "dep": "French"
+    },
+    {
+        "firstName": "Dorothea",
+        "lastName": "Kullmann",
+        "rating": 2.3,
+        "numRatings": 13,
+        "avgDiff": 3.7,
+        "dep": "French"
+    },
+    {
+        "firstName": "Anne-Marie",
+        "lastName": "Brousseau",
+        "rating": 3.2,
+        "numRatings": 5,
+        "avgDiff": 3,
+        "dep": "French"
+    },
+    {
+        "firstName": "Katarzyna",
+        "lastName": "Peric",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "French"
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "Ayouti",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "French"
+    },
+    {
+        "firstName": "Myriam",
+        "lastName": "Corriveau",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "French"
+    },
+    {
+        "firstName": "Hang-Sun",
+        "lastName": "Kim",
+        "rating": 5,
+        "numRatings": 11,
+        "avgDiff": 3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Maria",
+        "lastName": "Harutyunyan",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Stefana",
+        "lastName": "Gargova",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 1.4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Christine",
+        "lastName": "Lehleiter",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Andre",
+        "lastName": "Flicker",
+        "rating": 4.3,
+        "numRatings": 3,
+        "avgDiff": 3.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Noyes",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Willi",
+        "lastName": "Goetschel",
+        "rating": 2.4,
+        "numRatings": 11,
+        "avgDiff": 3.3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Romila",
+        "lastName": "Verma",
+        "rating": 4.8,
+        "numRatings": 73,
+        "avgDiff": 3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Sabrien",
+        "lastName": "Amrov",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 2.3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Damian",
+        "lastName": "Dupuy",
+        "rating": 4,
+        "numRatings": 39,
+        "avgDiff": 2.9,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Deborah",
+        "lastName": "Cowen",
+        "rating": 4.6,
+        "numRatings": 57,
+        "avgDiff": 2.9,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Wakefield",
+        "rating": 3.8,
+        "numRatings": 46,
+        "avgDiff": 3.3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Rachel",
+        "lastName": "Silvey",
+        "rating": 4.6,
+        "numRatings": 12,
+        "avgDiff": 2,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Peirce",
+        "rating": 5,
+        "numRatings": 6,
+        "avgDiff": 2.8,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Danny",
+        "lastName": "Harvey",
+        "rating": 2.4,
+        "numRatings": 79,
+        "avgDiff": 4.6,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Deborah",
+        "lastName": "Leslie",
+        "rating": 4.6,
+        "numRatings": 20,
+        "avgDiff": 2.9,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Alana",
+        "lastName": "Boland",
+        "rating": 4.9,
+        "numRatings": 44,
+        "avgDiff": 3.4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Farish",
+        "rating": 3.8,
+        "numRatings": 25,
+        "avgDiff": 3.5,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Jun",
+        "lastName": "Zhang",
+        "rating": 3.4,
+        "numRatings": 10,
+        "avgDiff": 3.3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Swales",
+        "rating": 3,
+        "numRatings": 47,
+        "avgDiff": 2.6,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "Hackworth",
+        "rating": 4.1,
+        "numRatings": 38,
+        "avgDiff": 2.9,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Widener",
+        "rating": 5,
+        "numRatings": 31,
+        "avgDiff": 2.4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Karim",
+        "lastName": "Malik",
+        "rating": 2,
+        "numRatings": 7,
+        "avgDiff": 3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Roger",
+        "lastName": "Phillips",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Liu",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Gwen",
+        "lastName": "MacGregor",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Geology"
+    },
+    {
+        "firstName": "Nicholas",
+        "lastName": "Lombardo",
+        "rating": 5,
+        "numRatings": 10,
+        "avgDiff": 2.4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Kanishka",
+        "lastName": "Goonewardena",
+        "rating": 3.4,
+        "numRatings": 16,
+        "avgDiff": 2.5,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Kristian",
+        "lastName": "Larsen",
+        "rating": 2.5,
+        "numRatings": 17,
+        "avgDiff": 3.5,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Prudham",
+        "rating": 3.9,
+        "numRatings": 25,
+        "avgDiff": 4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Blake",
+        "lastName": "Poland",
+        "rating": 3.3,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Luis",
+        "lastName": "Van Isschot",
+        "rating": 5,
+        "numRatings": 12,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Meyerson",
+        "rating": 5,
+        "numRatings": 17,
+        "avgDiff": 2.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Carol",
+        "lastName": "Chin",
+        "rating": 4.1,
+        "numRatings": 14,
+        "avgDiff": 2.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "L.K.",
+        "lastName": "Bertram",
+        "rating": 3.4,
+        "numRatings": 7,
+        "avgDiff": 3.9,
+        "dep": "History"
+    },
+    {
+        "firstName": "Alison",
+        "lastName": "Smith",
+        "rating": 4.2,
+        "numRatings": 19,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Yvon",
+        "lastName": "Wang",
+        "rating": 3.8,
+        "numRatings": 14,
+        "avgDiff": 2.9,
+        "dep": "History"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Jenkins",
+        "rating": 3.4,
+        "numRatings": 38,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Isabelle",
+        "lastName": "Cochelin",
+        "rating": 3.4,
+        "numRatings": 23,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Melanie",
+        "lastName": "Newton",
+        "rating": 3.4,
+        "numRatings": 27,
+        "avgDiff": 3.3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Nicholas",
+        "lastName": "Terpstra",
+        "rating": 5,
+        "numRatings": 52,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Mori",
+        "rating": 2.9,
+        "numRatings": 42,
+        "avgDiff": 3.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Eric",
+        "lastName": "Jennings",
+        "rating": 3.6,
+        "numRatings": 39,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Timothy",
+        "lastName": "Sayle",
+        "rating": 4.6,
+        "numRatings": 29,
+        "avgDiff": 3.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Steve",
+        "lastName": "Penfold",
+        "rating": 4.4,
+        "numRatings": 27,
+        "avgDiff": 2.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Anver",
+        "lastName": "Emon",
+        "rating": 4.5,
+        "numRatings": 5,
+        "avgDiff": 4.1,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Lisa",
+        "lastName": "Mar",
+        "rating": 4.4,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "Contemporary Asian Studies"
+    },
+    {
+        "firstName": "Sean",
+        "lastName": "Hawkins",
+        "rating": 3.4,
+        "numRatings": 70,
+        "avgDiff": 3.9,
+        "dep": "History"
+    },
+    {
+        "firstName": "Lori",
+        "lastName": "Loeb",
+        "rating": 4.8,
+        "numRatings": 40,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Sean",
+        "lastName": "Mills",
+        "rating": 4.3,
+        "numRatings": 3,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Kenneth",
+        "lastName": "Bartlett",
+        "rating": 4.1,
+        "numRatings": 165,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Adrian",
+        "lastName": "Mitter",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Vasilis",
+        "lastName": "Dimitriadis",
+        "rating": 5,
+        "numRatings": 111,
+        "avgDiff": 3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Nakanyike",
+        "lastName": "Musisi",
+        "rating": 4.5,
+        "numRatings": 18,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Nicholas",
+        "lastName": "Everett",
+        "rating": 4.3,
+        "numRatings": 13,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Matthieu",
+        "lastName": "Vallieres",
+        "rating": 3.5,
+        "numRatings": 4,
+        "avgDiff": 4,
+        "dep": "History"
+    },
+    {
+        "firstName": "Cindy",
+        "lastName": "Ewing",
+        "rating": 4.1,
+        "numRatings": 12,
+        "avgDiff": 4.4,
+        "dep": "International Studies"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Magocsi",
+        "rating": 3.8,
+        "numRatings": 11,
+        "avgDiff": 3.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Edward",
+        "lastName": "Shorter",
+        "rating": 3.7,
+        "numRatings": 8,
+        "avgDiff": 2.1,
+        "dep": "History"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Retallack",
+        "rating": 4.3,
+        "numRatings": 6,
+        "avgDiff": 3.2,
+        "dep": "History"
+    },
+    {
+        "firstName": "Shauna",
+        "lastName": "Sweeney",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2,
+        "dep": "History"
+    },
+    {
+        "firstName": "Ritu",
+        "lastName": "Birla",
+        "rating": 3.9,
+        "numRatings": 11,
+        "avgDiff": 2.8,
+        "dep": "History"
+    },
+    {
+        "firstName": "Heidi",
+        "lastName": "Bohaker",
+        "rating": 3.6,
+        "numRatings": 21,
+        "avgDiff": 2.9,
+        "dep": "History"
+    },
+    {
+        "firstName": "Naomi",
+        "lastName": "Levy-Strumpf",
+        "rating": 4.4,
+        "numRatings": 43,
+        "avgDiff": 3.1,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Hamel",
+        "rating": 3.4,
+        "numRatings": 26,
+        "avgDiff": 3.3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Alistair",
+        "lastName": "Dias",
+        "rating": 4.3,
+        "numRatings": 17,
+        "avgDiff": 3.4,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Nadia",
+        "lastName": "Sachewsky",
+        "rating": 2,
+        "numRatings": 11,
+        "avgDiff": 3.4,
+        "dep": "Molecular Biosciences"
+    },
+    {
+        "firstName": "Andras",
+        "lastName": "Kapus",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Biochemistry"
+    },
+    {
+        "firstName": "Franco",
+        "lastName": "Taverna",
+        "rating": 3,
+        "numRatings": 64,
+        "avgDiff": 3.3,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Colleen",
+        "lastName": "Dockstader",
+        "rating": 4.3,
+        "numRatings": 27,
+        "avgDiff": 3.9,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Doug",
+        "lastName": "Richards",
+        "rating": 4.9,
+        "numRatings": 31,
+        "avgDiff": 3,
+        "dep": "Physical Education"
+    },
+    {
+        "firstName": "Marius",
+        "lastName": "Locke",
+        "rating": 2.3,
+        "numRatings": 51,
+        "avgDiff": 4.5,
+        "dep": "Physical Ed"
+    },
+    {
+        "firstName": "Jessie",
+        "lastName": "Hall",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Solovey",
+        "rating": 4.8,
+        "numRatings": 19,
+        "avgDiff": 2.1,
+        "dep": "History"
+    },
+    {
+        "firstName": "Cory",
+        "lastName": "Lewis",
+        "rating": 5,
+        "numRatings": 44,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Yiftach",
+        "lastName": "Fehige",
+        "rating": 3.6,
+        "numRatings": 18,
+        "avgDiff": 3.3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Chen-Pang",
+        "lastName": "Yeang",
+        "rating": 2.1,
+        "numRatings": 13,
+        "avgDiff": 3.5,
+        "dep": "History"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Berkovitz",
+        "rating": 2.8,
+        "numRatings": 13,
+        "avgDiff": 3.6,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Elizabeth",
+        "lastName": "Koester",
+        "rating": 4,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "History"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Woods",
+        "rating": 4.5,
+        "numRatings": 11,
+        "avgDiff": 3.3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Lucia",
+        "lastName": "Dacome",
+        "rating": 4.5,
+        "numRatings": 5,
+        "avgDiff": 3.2,
+        "dep": "History"
+    },
+    {
+        "firstName": "Sylvia",
+        "lastName": "Nickerson",
+        "rating": 3.1,
+        "numRatings": 15,
+        "avgDiff": 3.4,
+        "dep": "History"
+    },
+    {
+        "firstName": "Anthony",
+        "lastName": "Lombardo",
+        "rating": 3.6,
+        "numRatings": 18,
+        "avgDiff": 3.4,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Adalsteinn",
+        "lastName": "Brown",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 2,
+        "dep": "Health Occupations"
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "Schluter",
+        "rating": 2.5,
+        "numRatings": 16,
+        "avgDiff": 3.1,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Raza",
+        "lastName": "Mirza",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3.3,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Nancy",
+        "lastName": "Olivieri",
+        "rating": 2.5,
+        "numRatings": 6,
+        "avgDiff": 3.9,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Eva",
+        "lastName": "Tomory",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Janine",
+        "lastName": "Riviere",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "History"
+    },
+    {
+        "firstName": "Jastaran",
+        "lastName": "Singh",
+        "rating": 4.4,
+        "numRatings": 19,
+        "avgDiff": 2.8,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Liliana",
+        "lastName": "Clemenza",
+        "rating": 3.2,
+        "numRatings": 34,
+        "avgDiff": 3.3,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Alberto",
+        "lastName": "Martin",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Dana",
+        "lastName": "Philpott",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 1,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "JC",
+        "lastName": "Zuniga-Pflucker",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Stuart",
+        "lastName": "Berger",
+        "rating": 2,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Shawn",
+        "lastName": "Micallef",
+        "rating": 2.4,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Writing"
+    },
+    {
+        "firstName": "Verne",
+        "lastName": "Ross",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 1.5,
+        "dep": "Indigenous Studies"
+    },
+    {
+        "firstName": "Ryan",
+        "lastName": "DeCaire",
+        "rating": 4.2,
+        "numRatings": 5,
+        "avgDiff": 3,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Daigle",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Indigenous Studies"
+    },
+    {
+        "firstName": "Anny",
+        "lastName": "Fong",
+        "rating": 4.8,
+        "numRatings": 16,
+        "avgDiff": 2.6,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Brat",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 2.5,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Rafael",
+        "lastName": "Gomez",
+        "rating": 4.9,
+        "numRatings": 10,
+        "avgDiff": 2.5,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Hua",
+        "lastName": "Wang",
+        "rating": 4,
+        "numRatings": 10,
+        "avgDiff": 2.5,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Frank",
+        "lastName": "Reid",
+        "rating": 3.8,
+        "numRatings": 25,
+        "avgDiff": 2.8,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Bradley",
+        "lastName": "Seward",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Fitzgibbon",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3.1,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Bob",
+        "lastName": "Thompson",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Manuela",
+        "lastName": "Scarci",
+        "rating": 3,
+        "numRatings": 36,
+        "avgDiff": 3.6,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Alessio",
+        "lastName": "Aletta",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Italian"
+    },
+    {
+        "firstName": "Giovanna",
+        "lastName": "Lisena",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Italian"
+    },
+    {
+        "firstName": "Paolo",
+        "lastName": "Frasca",
+        "rating": 4.8,
+        "numRatings": 8,
+        "avgDiff": 3.1,
+        "dep": "Italian"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Finkelstein",
+        "rating": 4.5,
+        "numRatings": 24,
+        "avgDiff": 3.4,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Roberts",
+        "rating": 4.3,
+        "numRatings": 10,
+        "avgDiff": 2.4,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Regina",
+        "lastName": "Jokel",
+        "rating": 4.5,
+        "numRatings": 4,
+        "avgDiff": 3.5,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Patricia",
+        "lastName": "McCarney",
+        "rating": 3.7,
+        "numRatings": 6,
+        "avgDiff": 2.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Arnot",
+        "rating": 2.1,
+        "numRatings": 49,
+        "avgDiff": 4.5,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Laposa",
+        "rating": 1.9,
+        "numRatings": 42,
+        "avgDiff": 2.5,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Faisal",
+        "lastName": "Kamal",
+        "rating": 2,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Ruth",
+        "lastName": "Marshall",
+        "rating": 3.6,
+        "numRatings": 6,
+        "avgDiff": 3.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Meredith",
+        "lastName": "Franklin",
+        "rating": 2.6,
+        "numRatings": 5,
+        "avgDiff": 5,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Donna",
+        "lastName": "Orwin",
+        "rating": 4.5,
+        "numRatings": 10,
+        "avgDiff": 3.5,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Cynthia",
+        "lastName": "Messenger",
+        "rating": 4.1,
+        "numRatings": 5,
+        "avgDiff": 3,
+        "dep": "English"
+    },
+    {
+        "firstName": "Victor",
+        "lastName": "Rivas",
+        "rating": 3.7,
+        "numRatings": 32,
+        "avgDiff": 3.1,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Donald",
+        "lastName": "Kingsbury",
+        "rating": 3.1,
+        "numRatings": 26,
+        "avgDiff": 3.5,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Dowling",
+        "rating": 5,
+        "numRatings": 6,
+        "avgDiff": 3.3,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Shaun",
+        "lastName": "Ross",
+        "rating": 4.1,
+        "numRatings": 9,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Eva-Lynn",
+        "lastName": "Jagoe",
+        "rating": 3.3,
+        "numRatings": 5,
+        "avgDiff": 2.6,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Zilcosky",
+        "rating": 4.4,
+        "numRatings": 17,
+        "avgDiff": 3.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Kate",
+        "lastName": "Holland",
+        "rating": 3.5,
+        "numRatings": 6,
+        "avgDiff": 3.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Haytham",
+        "lastName": "Bahoora",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 2,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Comay",
+        "rating": 3.3,
+        "numRatings": 34,
+        "avgDiff": 3.7,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Alexei",
+        "lastName": "Kochetov",
+        "rating": 4.8,
+        "numRatings": 3,
+        "avgDiff": 3.4,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Michela",
+        "lastName": "Ippolito",
+        "rating": 2.4,
+        "numRatings": 10,
+        "avgDiff": 3.4,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Nathan",
+        "lastName": "Sanders",
+        "rating": 5,
+        "numRatings": 33,
+        "avgDiff": 3.8,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Keir",
+        "lastName": "Moulton",
+        "rating": 4.3,
+        "numRatings": 4,
+        "avgDiff": 2.8,
+        "dep": "Linguistics"
+    },
+    {
+        "firstName": "Douglas",
+        "lastName": "Templeton",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Smith",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "East Asian Studies"
+    },
+    {
+        "firstName": "Adriano",
+        "lastName": "Pacifico",
+        "rating": 2.9,
+        "numRatings": 10,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Sokurski",
+        "rating": 4,
+        "numRatings": 2,
+        "avgDiff": 2.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Emile",
+        "lastName": "LeBlanc",
+        "rating": 4,
+        "numRatings": 93,
+        "avgDiff": 5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Jessica",
+        "lastName": "Liu",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Adilbek",
+        "lastName": "Kairzhan",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Ethan",
+        "lastName": "Ross",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Jinan",
+        "lastName": "Krayem",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Xiaoyue",
+        "lastName": "Cui",
+        "rating": 3,
+        "numRatings": 31,
+        "avgDiff": 4.1,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Ilia",
+        "lastName": "Gaiur",
+        "rating": 3.9,
+        "numRatings": 7,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Tomas",
+        "lastName": "Kojar",
+        "rating": 4.6,
+        "numRatings": 79,
+        "avgDiff": 4.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Almut",
+        "lastName": "Burchard",
+        "rating": 4.3,
+        "numRatings": 7,
+        "avgDiff": 3.8,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Regina",
+        "lastName": "Rotman",
+        "rating": 3.4,
+        "numRatings": 19,
+        "avgDiff": 3.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Kasra",
+        "lastName": "Rafi",
+        "rating": 4.1,
+        "numRatings": 10,
+        "avgDiff": 2.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Pechersky",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Nara",
+        "lastName": "Jung",
+        "rating": 2.9,
+        "numRatings": 37,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Florian",
+        "lastName": "Herzig",
+        "rating": 4,
+        "numRatings": 7,
+        "avgDiff": 4.1,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Xiao",
+        "lastName": "Jie",
+        "rating": 3.3,
+        "numRatings": 12,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Eckhard",
+        "lastName": "Meinrenken",
+        "rating": 4.6,
+        "numRatings": 41,
+        "avgDiff": 3.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Joe",
+        "lastName": "Repka",
+        "rating": 4.2,
+        "numRatings": 49,
+        "avgDiff": 3.3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Vitali",
+        "lastName": "Kapovitch",
+        "rating": 3.3,
+        "numRatings": 23,
+        "avgDiff": 3.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Gaurav",
+        "lastName": "Patil",
+        "rating": 2.6,
+        "numRatings": 9,
+        "avgDiff": 2.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Alexander",
+        "lastName": "Nabutovsky",
+        "rating": 2.1,
+        "numRatings": 17,
+        "avgDiff": 2.8,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Ahmed",
+        "lastName": "Ellithy",
+        "rating": 2.9,
+        "numRatings": 7,
+        "avgDiff": 4.3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Stanislav",
+        "lastName": "Balchev",
+        "rating": 4,
+        "numRatings": 4,
+        "avgDiff": 2.5,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Edward",
+        "lastName": "Bierstone",
+        "rating": 4.3,
+        "numRatings": 33,
+        "avgDiff": 3.9,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Jacov",
+        "lastName": "Tsimerman",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Henry",
+        "lastName": "Kim",
+        "rating": 2.5,
+        "numRatings": 14,
+        "avgDiff": 3.6,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "George",
+        "lastName": "Elliott",
+        "rating": 3.3,
+        "numRatings": 8,
+        "avgDiff": 2.3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Marco",
+        "lastName": "Gualtieri",
+        "rating": 5,
+        "numRatings": 45,
+        "avgDiff": 4.8,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Irina",
+        "lastName": "Mihalache",
+        "rating": 1,
+        "numRatings": 3,
+        "avgDiff": 4,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Themistoklis",
+        "lastName": "Aravossitas",
+        "rating": 5,
+        "numRatings": 6,
+        "avgDiff": 2.4,
+        "dep": "History"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Khan",
+        "rating": 3,
+        "numRatings": 36,
+        "avgDiff": 4,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Navarre",
+        "rating": 4.4,
+        "numRatings": 19,
+        "avgDiff": 2.4,
+        "dep": "Molecular Genetics"
+    },
+    {
+        "firstName": "Brigitte",
+        "lastName": "Lavoie",
+        "rating": 1.6,
+        "numRatings": 12,
+        "avgDiff": 4.9,
+        "dep": "Molecular Genetics"
+    },
+    {
+        "firstName": "Andrew",
+        "lastName": "Spence",
+        "rating": 3.1,
+        "numRatings": 7,
+        "avgDiff": 3.3,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Alan",
+        "lastName": "Cochrane",
+        "rating": 3,
+        "numRatings": 5,
+        "avgDiff": 4.3,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Martha",
+        "lastName": "Brown",
+        "rating": 3.8,
+        "numRatings": 6,
+        "avgDiff": 4.2,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Sean",
+        "lastName": "Egan",
+        "rating": 2.4,
+        "numRatings": 3,
+        "avgDiff": 4.8,
+        "dep": "Molecular Genetics"
+    },
+    {
+        "firstName": "Henry",
+        "lastName": "Krause",
+        "rating": 2.3,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Biology"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Wong",
+        "rating": 4.1,
+        "numRatings": 52,
+        "avgDiff": 3.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Randall",
+        "lastName": "Hansen",
+        "rating": 3.6,
+        "numRatings": 62,
+        "avgDiff": 3.8,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Robin",
+        "lastName": "Elliott",
+        "rating": 4.5,
+        "numRatings": 24,
+        "avgDiff": 2.3,
+        "dep": "Music"
+    },
+    {
+        "firstName": "Roberta",
+        "lastName": "Buiani",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Media Studies"
+    },
+    {
+        "firstName": "Teresa",
+        "lastName": "Ascencao",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Architecture"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Clandfield",
+        "rating": 4.2,
+        "numRatings": 9,
+        "avgDiff": 2.3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Denis",
+        "lastName": "Collier",
+        "rating": 4.4,
+        "numRatings": 16,
+        "avgDiff": 2.2,
+        "dep": "Nutrition"
+    },
+    {
+        "firstName": "Ahmed",
+        "lastName": "El-Sohemy",
+        "rating": 3.7,
+        "numRatings": 15,
+        "avgDiff": 2.7,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Oren",
+        "lastName": "Siegel",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Arafat",
+        "lastName": "Razzaque",
+        "rating": 4.8,
+        "numRatings": 4,
+        "avgDiff": 2.8,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Nada",
+        "lastName": "Moumtaz",
+        "rating": 3.8,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Clemens",
+        "lastName": "Reichel",
+        "rating": 4.5,
+        "numRatings": 6,
+        "avgDiff": 2.7,
+        "dep": "Near Eastern Studies"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Holmstedt",
+        "rating": 3,
+        "numRatings": 3,
+        "avgDiff": 3.8,
+        "dep": "Near amp Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Katja",
+        "lastName": "Goebs",
+        "rating": 3.5,
+        "numRatings": 19,
+        "avgDiff": 3,
+        "dep": "Near Eastern Studies"
+    },
+    {
+        "firstName": "Maria",
+        "lastName": "Subtelny",
+        "rating": 4.2,
+        "numRatings": 19,
+        "avgDiff": 2.7,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Batiuk",
+        "rating": 4,
+        "numRatings": 14,
+        "avgDiff": 2.6,
+        "dep": "History"
+    },
+    {
+        "firstName": "Lynn",
+        "lastName": "Welton",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Nefise",
+        "lastName": "Kahraman",
+        "rating": 4,
+        "numRatings": 5,
+        "avgDiff": 2.6,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Victor",
+        "lastName": "Ostapchuk",
+        "rating": 2.4,
+        "numRatings": 6,
+        "avgDiff": 2.7,
+        "dep": "Multicultural Studies"
+    },
+    {
+        "firstName": "Mohamad",
+        "lastName": "Tavakoli-Targhi",
+        "rating": 3.5,
+        "numRatings": 10,
+        "avgDiff": 2.3,
+        "dep": "History"
+    },
+    {
+        "firstName": "Adam",
+        "lastName": "Ali",
+        "rating": 3.4,
+        "numRatings": 3,
+        "avgDiff": 2.8,
+        "dep": "Health Science"
+    },
+    {
+        "firstName": "Tirzah",
+        "lastName": "Meacham",
+        "rating": 3,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Near amp Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Abdel-Khalig",
+        "lastName": "Ali",
+        "rating": 3.9,
+        "numRatings": 39,
+        "avgDiff": 2.9,
+        "dep": "Near & Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Jeannie",
+        "lastName": "Miller",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 3.4,
+        "dep": "Near  Middle Eastern Civilizations"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Fox",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Fox",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Courtney",
+        "lastName": "Jung",
+        "rating": 3.1,
+        "numRatings": 63,
+        "avgDiff": 3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Paola",
+        "lastName": "Salardi",
+        "rating": 2.8,
+        "numRatings": 8,
+        "avgDiff": 3.5,
+        "dep": "Economics"
+    },
+    {
+        "firstName": "Amy",
+        "lastName": "Ramsey",
+        "rating": 5,
+        "numRatings": 17,
+        "avgDiff": 2.6,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Ali",
+        "lastName": "Salahpour",
+        "rating": 4,
+        "numRatings": 4,
+        "avgDiff": 3,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Wells",
+        "rating": 3.3,
+        "numRatings": 3,
+        "avgDiff": 3.3,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Rachel",
+        "lastName": "Tyndale",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Cindy",
+        "lastName": "Woodland",
+        "rating": 3.5,
+        "numRatings": 35,
+        "avgDiff": 3.3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Mary",
+        "lastName": "Erclik",
+        "rating": 3,
+        "numRatings": 11,
+        "avgDiff": 3.2,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Ian",
+        "lastName": "Crandall",
+        "rating": 4.7,
+        "numRatings": 8,
+        "avgDiff": 1.9,
+        "dep": "Science"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Dubins",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Chemistry"
+    },
+    {
+        "firstName": "Christine",
+        "lastName": "Allen",
+        "rating": 2.5,
+        "numRatings": 3,
+        "avgDiff": 3.7,
+        "dep": "Pharmacology"
+    },
+    {
+        "firstName": "Donald",
+        "lastName": "Ainslie",
+        "rating": 3.9,
+        "numRatings": 26,
+        "avgDiff": 3.3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Heath",
+        "rating": 4.1,
+        "numRatings": 34,
+        "avgDiff": 2.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Miller",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Kingwell",
+        "rating": 3.4,
+        "numRatings": 153,
+        "avgDiff": 3.2,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Jessica",
+        "lastName": "Gelber",
+        "rating": 3.8,
+        "numRatings": 6,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "King",
+        "rating": 4.5,
+        "numRatings": 65,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Natalie",
+        "lastName": "Helberg",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 3.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Caie",
+        "rating": 2.6,
+        "numRatings": 11,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Trevor",
+        "lastName": "Teitel",
+        "rating": 4.3,
+        "numRatings": 5,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Imogen",
+        "lastName": "Dickie",
+        "rating": 3.8,
+        "numRatings": 56,
+        "avgDiff": 3.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Elisa",
+        "lastName": "Freschi",
+        "rating": 4.6,
+        "numRatings": 7,
+        "avgDiff": 3.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Barnett",
+        "rating": 2.8,
+        "numRatings": 4,
+        "avgDiff": 3.1,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Alexander",
+        "lastName": "Koo",
+        "rating": 4,
+        "numRatings": 73,
+        "avgDiff": 4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Franz",
+        "lastName": "Huber",
+        "rating": 3.8,
+        "numRatings": 22,
+        "avgDiff": 3.6,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Andrew",
+        "lastName": "Franklin-Hall",
+        "rating": 4.4,
+        "numRatings": 20,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Steven",
+        "lastName": "Coyne",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Lloyd",
+        "lastName": "Gerson",
+        "rating": 2.9,
+        "numRatings": 100,
+        "avgDiff": 4.1,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Rosenthal",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Tarek",
+        "lastName": "Dika",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Cheryl",
+        "lastName": "Misak",
+        "rating": 3.8,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Jamie",
+        "lastName": "Shaw",
+        "rating": 5,
+        "numRatings": 4,
+        "avgDiff": 2.8,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Deborah",
+        "lastName": "Black",
+        "rating": 3.5,
+        "numRatings": 11,
+        "avgDiff": 3.1,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Martin",
+        "lastName": "Pickave",
+        "rating": 3.4,
+        "numRatings": 19,
+        "avgDiff": 3.1,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Mihai",
+        "lastName": "Ganea",
+        "rating": 4.5,
+        "numRatings": 5,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Denis",
+        "lastName": "Walsh",
+        "rating": 4.6,
+        "numRatings": 10,
+        "avgDiff": 2.7,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Dyzenhaus",
+        "rating": 4.1,
+        "numRatings": 13,
+        "avgDiff": 3.2,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Gibson",
+        "rating": 2.8,
+        "numRatings": 11,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Moreau",
+        "rating": 4.4,
+        "numRatings": 16,
+        "avgDiff": 2.6,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Suarez",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 3.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "Harlow",
+        "rating": 5,
+        "numRatings": 111,
+        "avgDiff": 3.5,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Brian",
+        "lastName": "Wilson",
+        "rating": 3.8,
+        "numRatings": 83,
+        "avgDiff": 4.3,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Kushner",
+        "rating": 3.3,
+        "numRatings": 24,
+        "avgDiff": 3.8,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Julian",
+        "rating": 4.6,
+        "numRatings": 27,
+        "avgDiff": 3.5,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Arun",
+        "lastName": "Paramekanti",
+        "rating": 1,
+        "numRatings": 3,
+        "avgDiff": 5,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "Lee",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Aephraim",
+        "lastName": "Steinberg",
+        "rating": 2,
+        "numRatings": 1,
+        "avgDiff": 5,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Wei",
+        "rating": 2.6,
+        "numRatings": 23,
+        "avgDiff": 3.5,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Luke",
+        "rating": 4.9,
+        "numRatings": 6,
+        "avgDiff": 3,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Sipe",
+        "rating": 4.2,
+        "numRatings": 11,
+        "avgDiff": 3.4,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Hae-Young",
+        "lastName": "Kee",
+        "rating": 2.1,
+        "numRatings": 19,
+        "avgDiff": 3.7,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "James",
+        "rating": 4.1,
+        "numRatings": 25,
+        "avgDiff": 3.3,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Dylan",
+        "lastName": "Jones",
+        "rating": 4.6,
+        "numRatings": 8,
+        "avgDiff": 2.6,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Orr",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Krieger",
+        "rating": 3.9,
+        "numRatings": 8,
+        "avgDiff": 2.6,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Trischuk",
+        "rating": 3.3,
+        "numRatings": 25,
+        "avgDiff": 2.8,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Yong Baek",
+        "lastName": "Kim",
+        "rating": 1.6,
+        "numRatings": 8,
+        "avgDiff": 4.6,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Erich",
+        "lastName": "Poppitz",
+        "rating": 3.8,
+        "numRatings": 30,
+        "avgDiff": 3.6,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Curtin",
+        "rating": 4.4,
+        "numRatings": 8,
+        "avgDiff": 3.9,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Thywissen",
+        "rating": 3.8,
+        "numRatings": 27,
+        "avgDiff": 2.8,
+        "dep": "Physics"
+    },
+    {
+        "firstName": "Ronald",
+        "lastName": "Deibert",
+        "rating": 3.8,
+        "numRatings": 53,
+        "avgDiff": 2.5,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Lilach",
+        "lastName": "Gilady",
+        "rating": 2.9,
+        "numRatings": 107,
+        "avgDiff": 3.5,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Zarnett",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Nancy",
+        "lastName": "Bertoldi",
+        "rating": 4.2,
+        "numRatings": 11,
+        "avgDiff": 3.8,
+        "dep": "Not Specified"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Cook",
+        "rating": 4.6,
+        "numRatings": 9,
+        "avgDiff": 2.9,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Kanta",
+        "lastName": "Murali",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Clifford",
+        "lastName": "Orwin",
+        "rating": 3.4,
+        "numRatings": 130,
+        "avgDiff": 3.9,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Walton",
+        "rating": 3,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Jacques",
+        "lastName": "Bertrand",
+        "rating": 3.9,
+        "numRatings": 21,
+        "avgDiff": 2.7,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Kenichi",
+        "lastName": "Ariga",
+        "rating": 3.4,
+        "numRatings": 33,
+        "avgDiff": 3.2,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Abbas",
+        "lastName": "Gnamo",
+        "rating": 2.9,
+        "numRatings": 23,
+        "avgDiff": 3.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Kingston",
+        "rating": 2.8,
+        "numRatings": 55,
+        "avgDiff": 3.2,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Arnd",
+        "lastName": "Jurgensen",
+        "rating": 4.5,
+        "numRatings": 73,
+        "avgDiff": 3.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Ran",
+        "lastName": "Hirschl",
+        "rating": 4.6,
+        "numRatings": 21,
+        "avgDiff": 3.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Quayat",
+        "rating": 3.9,
+        "numRatings": 21,
+        "avgDiff": 4.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Ryan",
+        "lastName": "Hurl",
+        "rating": 3.1,
+        "numRatings": 22,
+        "avgDiff": 3.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Louis",
+        "lastName": "Pauly",
+        "rating": 3.1,
+        "numRatings": 9,
+        "avgDiff": 4,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Connor",
+        "lastName": "Ewing",
+        "rating": 4.2,
+        "numRatings": 19,
+        "avgDiff": 4.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Wendy",
+        "lastName": "Wong",
+        "rating": 2.6,
+        "numRatings": 21,
+        "avgDiff": 3.6,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Kate",
+        "lastName": "Neville",
+        "rating": 4.4,
+        "numRatings": 11,
+        "avgDiff": 4,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Dale",
+        "lastName": "Turner",
+        "rating": 3,
+        "numRatings": 4,
+        "avgDiff": 2.8,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Aurel",
+        "lastName": "Braun",
+        "rating": 3.3,
+        "numRatings": 16,
+        "avgDiff": 2.9,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Donnelly",
+        "rating": 4,
+        "numRatings": 19,
+        "avgDiff": 3.1,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Kingston",
+        "rating": 2.5,
+        "numRatings": 29,
+        "avgDiff": 3.8,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Kenneth",
+        "lastName": "Green",
+        "rating": 3.8,
+        "numRatings": 9,
+        "avgDiff": 3.5,
+        "dep": "Theology"
+    },
+    {
+        "firstName": "Carla",
+        "lastName": "Norrlof",
+        "rating": 2,
+        "numRatings": 32,
+        "avgDiff": 4.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Carla",
+        "lastName": "Norrlof",
+        "rating": 2,
+        "numRatings": 32,
+        "avgDiff": 4.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Vanessa",
+        "lastName": "Melo",
+        "rating": 3.5,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "French",
+        "rating": 4.1,
+        "numRatings": 67,
+        "avgDiff": 3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Jeff",
+        "lastName": "Kroetsch",
+        "rating": 2.3,
+        "numRatings": 9,
+        "avgDiff": 4,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Nohjin",
+        "lastName": "Kee",
+        "rating": 4.1,
+        "numRatings": 59,
+        "avgDiff": 3,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Brian",
+        "lastName": "Cox",
+        "rating": 3.5,
+        "numRatings": 3,
+        "avgDiff": 2.7,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Mei",
+        "lastName": "Zhen",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Molecular Genetics"
+    },
+    {
+        "firstName": "Adria",
+        "lastName": "Giacca",
+        "rating": 2.5,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Shuzo",
+        "lastName": "Sugita",
+        "rating": 1,
+        "numRatings": 4,
+        "avgDiff": 3.3,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Douglas",
+        "lastName": "Tweed",
+        "rating": 4.9,
+        "numRatings": 24,
+        "avgDiff": 2.7,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Heximer",
+        "rating": 2.6,
+        "numRatings": 18,
+        "avgDiff": 3.7,
+        "dep": "Medicine"
+    },
+    {
+        "firstName": "Ashley",
+        "lastName": "Waggoner Denton",
+        "rating": 5,
+        "numRatings": 149,
+        "avgDiff": 3.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Amy",
+        "lastName": "Finn",
+        "rating": 2.9,
+        "numRatings": 8,
+        "avgDiff": 3.1,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Dirk",
+        "lastName": "Bernhardt-Walther",
+        "rating": 5,
+        "numRatings": 12,
+        "avgDiff": 2.8,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Patricia",
+        "lastName": "Sanchez",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Amanda",
+        "lastName": "Sharples",
+        "rating": 3.6,
+        "numRatings": 59,
+        "avgDiff": 3.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Christina",
+        "lastName": "Starmans",
+        "rating": 4.4,
+        "numRatings": 9,
+        "avgDiff": 3.1,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Simone",
+        "lastName": "Walker",
+        "rating": 3.4,
+        "numRatings": 25,
+        "avgDiff": 3.7,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Ryan",
+        "rating": 4.8,
+        "numRatings": 24,
+        "avgDiff": 3.8,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Morgan",
+        "lastName": "Barense",
+        "rating": 3.5,
+        "numRatings": 2,
+        "avgDiff": 4.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Alexander",
+        "lastName": "Barnett",
+        "rating": 4.6,
+        "numRatings": 4,
+        "avgDiff": 3.4,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Cunningham",
+        "rating": 3.7,
+        "numRatings": 3,
+        "avgDiff": 3.7,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Laura",
+        "lastName": "Corbit",
+        "rating": 2,
+        "numRatings": 20,
+        "avgDiff": 4.1,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Neel",
+        "rating": 4.5,
+        "numRatings": 4,
+        "avgDiff": 2.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Alison",
+        "lastName": "Chasteen",
+        "rating": 3.8,
+        "numRatings": 21,
+        "avgDiff": 3,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Katherine",
+        "lastName": "Duncan",
+        "rating": 3.8,
+        "numRatings": 6,
+        "avgDiff": 2.3,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Jun Young",
+        "lastName": "Park",
+        "rating": 3.5,
+        "numRatings": 2,
+        "avgDiff": 4.5,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Noreen",
+        "lastName": "Stuckless",
+        "rating": 3,
+        "numRatings": 14,
+        "avgDiff": 3.1,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "Plaks",
+        "rating": 3.4,
+        "numRatings": 33,
+        "avgDiff": 3.5,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Gillian",
+        "lastName": "Rowe",
+        "rating": 3.8,
+        "numRatings": 23,
+        "avgDiff": 2.4,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Junchul",
+        "lastName": "Kim",
+        "rating": 4.8,
+        "numRatings": 15,
+        "avgDiff": 3.8,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Martin",
+        "lastName": "Ralph",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Susanne",
+        "lastName": "Ferber",
+        "rating": 3.5,
+        "numRatings": 22,
+        "avgDiff": 3.3,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Kaori",
+        "lastName": "Takehara",
+        "rating": 1.9,
+        "numRatings": 22,
+        "avgDiff": 4.4,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Vignash",
+        "lastName": "Tharmaratnam",
+        "rating": 3.8,
+        "numRatings": 3,
+        "avgDiff": 3.8,
+        "dep": "Psychology"
+    },
+    {
+        "firstName": "Hakob",
+        "lastName": "Barseghyan",
+        "rating": 5,
+        "numRatings": 103,
+        "avgDiff": 2.4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Alexander",
+        "lastName": "Hampton",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 4,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Kevin",
+        "lastName": "O'Neill",
+        "rating": 5,
+        "numRatings": 28,
+        "avgDiff": 2.3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Marshall",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Gallant",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Sol",
+        "lastName": "Goldberg",
+        "rating": 4.6,
+        "numRatings": 20,
+        "avgDiff": 3.1,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Harris",
+        "rating": 4.7,
+        "numRatings": 3,
+        "avgDiff": 3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Walid",
+        "lastName": "Saleh",
+        "rating": 4.6,
+        "numRatings": 50,
+        "avgDiff": 3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Srilata",
+        "lastName": "Raman",
+        "rating": 3.6,
+        "numRatings": 8,
+        "avgDiff": 2.5,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Marsha",
+        "lastName": "Hewitt",
+        "rating": 3.2,
+        "numRatings": 8,
+        "avgDiff": 3.2,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Libbie",
+        "lastName": "Mills",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Simon",
+        "lastName": "Coleman",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Kloppenborg",
+        "rating": 4.5,
+        "numRatings": 13,
+        "avgDiff": 3.4,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Pamela",
+        "lastName": "Klassen",
+        "rating": 3.3,
+        "numRatings": 6,
+        "avgDiff": 2.5,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Eleanor",
+        "lastName": "Pontoriero",
+        "rating": 5,
+        "numRatings": 41,
+        "avgDiff": 2.8,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Perley",
+        "rating": 3.1,
+        "numRatings": 53,
+        "avgDiff": 3,
+        "dep": "Religion"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Douglas",
+        "rating": 4.8,
+        "numRatings": 33,
+        "avgDiff": 3.5,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "rating": 5,
+        "numRatings": 43,
+        "avgDiff": 3.5,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Jeffrey",
+        "lastName": "Callen",
+        "rating": 4,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Ping",
+        "lastName": "Zhang",
+        "rating": 2.1,
+        "numRatings": 31,
+        "avgDiff": 3.8,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Hai",
+        "lastName": "Lu",
+        "rating": 2,
+        "numRatings": 28,
+        "avgDiff": 5,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Daehyun",
+        "lastName": "Kim",
+        "rating": 4.8,
+        "numRatings": 10,
+        "avgDiff": 3.2,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Catherine",
+        "lastName": "Barrette",
+        "rating": 4.1,
+        "numRatings": 19,
+        "avgDiff": 3.2,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Manfred",
+        "lastName": "Schneider",
+        "rating": 4.6,
+        "numRatings": 15,
+        "avgDiff": 2.7,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Jaclyn",
+        "lastName": "Seidman",
+        "rating": 4.8,
+        "numRatings": 15,
+        "avgDiff": 4,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Rhia",
+        "lastName": "Catapano",
+        "rating": 4.4,
+        "numRatings": 3,
+        "avgDiff": 1.8,
+        "dep": "Marketing"
+    },
+    {
+        "firstName": "Dinara",
+        "lastName": "Akchurina",
+        "rating": 4.8,
+        "numRatings": 6,
+        "avgDiff": 2.5,
+        "dep": "Marketing"
+    },
+    {
+        "firstName": "George",
+        "lastName": "Newman",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 1,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Marlys",
+        "lastName": "Christianson",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Feinberg",
+        "rating": 4.9,
+        "numRatings": 5,
+        "avgDiff": 2,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Rachel",
+        "lastName": "Ruttan",
+        "rating": 5,
+        "numRatings": 8,
+        "avgDiff": 2.6,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Vahid",
+        "lastName": "Roshanaei",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Nasser",
+        "lastName": "Barjesteh",
+        "rating": 2.6,
+        "numRatings": 5,
+        "avgDiff": 4.1,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Jan",
+        "rating": 3.5,
+        "numRatings": 2,
+        "avgDiff": 3.5,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Joel",
+        "lastName": "Amernic",
+        "rating": 4.6,
+        "numRatings": 20,
+        "avgDiff": 3.1,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Gordon",
+        "lastName": "Richardson",
+        "rating": 2.3,
+        "numRatings": 11,
+        "avgDiff": 4.1,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Roman",
+        "rating": 4.8,
+        "numRatings": 5,
+        "avgDiff": 3.6,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Burke",
+        "rating": 4.6,
+        "numRatings": 12,
+        "avgDiff": 4.4,
+        "dep": "Finance"
+    },
+    {
+        "firstName": "Liyan",
+        "lastName": "Yang",
+        "rating": 2.4,
+        "numRatings": 6,
+        "avgDiff": 3.8,
+        "dep": "Finance"
+    },
+    {
+        "firstName": "Kevin",
+        "lastName": "Wang",
+        "rating": 4,
+        "numRatings": 26,
+        "avgDiff": 4,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Otto",
+        "lastName": "Yung",
+        "rating": 3.8,
+        "numRatings": 3,
+        "avgDiff": 4.4,
+        "dep": "Actuarial Science"
+    },
+    {
+        "firstName": "Irene",
+        "lastName": "Yi",
+        "rating": 2.5,
+        "numRatings": 2,
+        "avgDiff": 3,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Luciano",
+        "lastName": "Volpe",
+        "rating": 4,
+        "numRatings": 18,
+        "avgDiff": 2.8,
+        "dep": "Marketing"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Hawkins",
+        "rating": 3.8,
+        "numRatings": 11,
+        "avgDiff": 3,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Ryan",
+        "lastName": "Webb",
+        "rating": 4.4,
+        "numRatings": 10,
+        "avgDiff": 2.6,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Shannon",
+        "lastName": "Liu",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2.4,
+        "dep": "Finance"
+    },
+    {
+        "firstName": "Wendy",
+        "lastName": "Rotenberg",
+        "rating": 2.6,
+        "numRatings": 32,
+        "avgDiff": 3,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Ann",
+        "lastName": "Armstrong",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Claire",
+        "lastName": "Celerier",
+        "rating": 4.1,
+        "numRatings": 8,
+        "avgDiff": 3.6,
+        "dep": "Finance"
+    },
+    {
+        "firstName": "Stefan",
+        "lastName": "Dimitriadis",
+        "rating": 5,
+        "numRatings": 3,
+        "avgDiff": 2.4,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Kenneth",
+        "lastName": "Corts",
+        "rating": 3.8,
+        "numRatings": 5,
+        "avgDiff": 3.6,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Elisa",
+        "lastName": "Zuliani",
+        "rating": 2.6,
+        "numRatings": 143,
+        "avgDiff": 3.3,
+        "dep": "Accounting"
+    },
+    {
+        "firstName": "Sridhar",
+        "lastName": "Moorthy",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Oesch",
+        "rating": 3.5,
+        "numRatings": 37,
+        "avgDiff": 3,
+        "dep": "Management"
+    },
+    {
+        "firstName": "Indira",
+        "lastName": "Somwaru",
+        "rating": 3,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Jan",
+        "lastName": "Klakurka",
+        "rating": 2.3,
+        "numRatings": 8,
+        "avgDiff": 3.1,
+        "dep": "Business"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Brennan",
+        "rating": 4.1,
+        "numRatings": 7,
+        "avgDiff": 3.8,
+        "dep": "Social Work"
+    },
+    {
+        "firstName": "Elena",
+        "lastName": "Basile",
+        "rating": 4.5,
+        "numRatings": 7,
+        "avgDiff": 2.8,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Mariana",
+        "lastName": "Burak",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Maxim",
+        "lastName": "Tarnawsky",
+        "rating": 4.7,
+        "numRatings": 6,
+        "avgDiff": 3.2,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Leonid",
+        "lastName": "Livak",
+        "rating": 4.8,
+        "numRatings": 28,
+        "avgDiff": 3.4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Dragana",
+        "lastName": "Obradovic",
+        "rating": 4.7,
+        "numRatings": 9,
+        "avgDiff": 3.4,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Julia",
+        "lastName": "Mikhailova",
+        "rating": 4.9,
+        "numRatings": 6,
+        "avgDiff": 3,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "Taras",
+        "lastName": "Koznarsky",
+        "rating": 3.5,
+        "numRatings": 13,
+        "avgDiff": 3.4,
+        "dep": "Humanities"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Schieman",
+        "rating": 3.5,
+        "numRatings": 36,
+        "avgDiff": 3.3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Magee",
+        "rating": 2.3,
+        "numRatings": 62,
+        "avgDiff": 3.7,
+        "dep": "Social Science"
+    },
+    {
+        "firstName": "Joseph",
+        "lastName": "Bryant",
+        "rating": 4.9,
+        "numRatings": 84,
+        "avgDiff": 3.5,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Sebastien",
+        "lastName": "Parker",
+        "rating": 3.9,
+        "numRatings": 20,
+        "avgDiff": 3.2,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Jonathan",
+        "lastName": "Horowitz",
+        "rating": 4,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Sharla",
+        "lastName": "Alegria",
+        "rating": 3.5,
+        "numRatings": 10,
+        "avgDiff": 3.3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Brent",
+        "lastName": "Berry",
+        "rating": 4,
+        "numRatings": 38,
+        "avgDiff": 2.8,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Adam",
+        "lastName": "Green",
+        "rating": 4.4,
+        "numRatings": 46,
+        "avgDiff": 3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Brigid",
+        "lastName": "Burke",
+        "rating": 2.6,
+        "numRatings": 27,
+        "avgDiff": 3.3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Alicia",
+        "lastName": "Eads",
+        "rating": 2.3,
+        "numRatings": 6,
+        "avgDiff": 3.8,
+        "dep": "Business"
+    },
+    {
+        "firstName": "Steven",
+        "lastName": "Hayle",
+        "rating": 4.1,
+        "numRatings": 33,
+        "avgDiff": 3.1,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Christian",
+        "lastName": "Caron",
+        "rating": 4.3,
+        "numRatings": 109,
+        "avgDiff": 2.6,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Judith",
+        "lastName": "Taylor",
+        "rating": 3.5,
+        "numRatings": 32,
+        "avgDiff": 3.1,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Bonnie",
+        "lastName": "Erickson",
+        "rating": 2.8,
+        "numRatings": 16,
+        "avgDiff": 3.3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Vanina",
+        "lastName": "Leschziner",
+        "rating": 3.3,
+        "numRatings": 10,
+        "avgDiff": 3.3,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Blair",
+        "lastName": "Wheaton",
+        "rating": 3.3,
+        "numRatings": 21,
+        "avgDiff": 3.6,
+        "dep": "Sociology"
+    },
+    {
+        "firstName": "Kristina",
+        "lastName": "Stajic",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Spanish"
+    },
+    {
+        "firstName": "Sanda",
+        "lastName": "Munjic",
+        "rating": 2.9,
+        "numRatings": 17,
+        "avgDiff": 4,
+        "dep": "Spanish"
+    },
+    {
+        "firstName": "Yolanda",
+        "lastName": "Iglesias",
+        "rating": 2,
+        "numRatings": 7,
+        "avgDiff": 3.3,
+        "dep": "Spanish"
+    },
+    {
+        "firstName": "Laura",
+        "lastName": "Colantoni",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 4,
+        "dep": "Spanish"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Schwartz",
+        "rating": 2.3,
+        "numRatings": 61,
+        "avgDiff": 4.9,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Nathalie",
+        "lastName": "Moon",
+        "rating": 4.8,
+        "numRatings": 13,
+        "avgDiff": 2.6,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Radu",
+        "lastName": "Craiu",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Murari",
+        "lastName": "Singh",
+        "rating": 1,
+        "numRatings": 10,
+        "avgDiff": 4.3,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Selvakkadunko",
+        "lastName": "Selvaratnam",
+        "rating": 2,
+        "numRatings": 60,
+        "avgDiff": 3.7,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Bethany",
+        "lastName": "White",
+        "rating": 1.4,
+        "numRatings": 49,
+        "avgDiff": 4.5,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Jeffrey",
+        "lastName": "Rosenthal",
+        "rating": 4.8,
+        "numRatings": 21,
+        "avgDiff": 3,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Samantha-Jo",
+        "lastName": "Caetano",
+        "rating": 3,
+        "numRatings": 4,
+        "avgDiff": 3.3,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Xin",
+        "lastName": "Bing",
+        "rating": 2.3,
+        "numRatings": 13,
+        "avgDiff": 4.6,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Brenner",
+        "rating": 5,
+        "numRatings": 33,
+        "avgDiff": 2.9,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Keith",
+        "lastName": "Knight",
+        "rating": 3.8,
+        "numRatings": 16,
+        "avgDiff": 4,
+        "dep": "Mathematics"
+    },
+    {
+        "firstName": "Mehdi",
+        "lastName": "Molkaraie",
+        "rating": 3,
+        "numRatings": 7,
+        "avgDiff": 4,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Dehan",
+        "lastName": "Kong",
+        "rating": 3,
+        "numRatings": 10,
+        "avgDiff": 4,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Nathan",
+        "lastName": "Taback",
+        "rating": 4.1,
+        "numRatings": 18,
+        "avgDiff": 3.1,
+        "dep": "Statistics"
+    },
+    {
+        "firstName": "Joy",
+        "lastName": "Fitzgibbon",
+        "rating": 5,
+        "numRatings": 29,
+        "avgDiff": 3.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Arne",
+        "lastName": "Kislenko",
+        "rating": 4.3,
+        "numRatings": 35,
+        "avgDiff": 4.1,
+        "dep": "History"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Carvounas",
+        "rating": 4.6,
+        "numRatings": 50,
+        "avgDiff": 2.6,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Kessler",
+        "rating": 4.9,
+        "numRatings": 3,
+        "avgDiff": 4,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "Brittain",
+        "rating": 5,
+        "numRatings": 2,
+        "avgDiff": 4,
+        "dep": "Theology"
+    },
+    {
+        "firstName": "Jonathan",
+        "lastName": "Herold",
+        "rating": 2.9,
+        "numRatings": 7,
+        "avgDiff": 4,
+        "dep": "History"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Duncan",
+        "rating": 2.6,
+        "numRatings": 23,
+        "avgDiff": 3.8,
+        "dep": "Philosophy"
+    },
+    {
+        "firstName": "Jennifer",
+        "lastName": "Leitch",
+        "rating": 1,
+        "numRatings": 1,
+        "avgDiff": 3,
+        "dep": "Law"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Ratcliffe",
+        "rating": 4.3,
+        "numRatings": 8,
+        "avgDiff": 3.6,
+        "dep": "Science"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Nieman",
+        "rating": 4.5,
+        "numRatings": 7,
+        "avgDiff": 3.3,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Aditi",
+        "lastName": "Mehta",
+        "rating": 4,
+        "numRatings": 10,
+        "avgDiff": 3.3,
+        "dep": "Geography"
+    },
+    {
+        "firstName": "Andrew",
+        "lastName": "Lawless",
+        "rating": 4.3,
+        "numRatings": 10,
+        "avgDiff": 2.6,
+        "dep": "Literature"
+    },
+    {
+        "firstName": "Anne",
+        "lastName": "Urbancic",
+        "rating": 4.6,
+        "numRatings": 48,
+        "avgDiff": 2.7,
+        "dep": "Languages"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Wright",
+        "rating": 4.4,
+        "numRatings": 20,
+        "avgDiff": 2.5,
+        "dep": "Political Science"
+    },
+    {
+        "firstName": "Wafaa",
+        "lastName": "Hasan",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 2,
+        "dep": "Women's Studies"
+    },
+    {
+        "firstName": "Angie",
+        "lastName": "Fazekas",
+        "rating": 5,
+        "numRatings": 1,
+        "avgDiff": 1,
+        "dep": "Women's Studies"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Murphy",
+        "rating": 4.2,
+        "numRatings": 17,
+        "avgDiff": 3.4,
+        "dep": "Women's Studies"
+    },
+    {
+        "firstName": "Robert",
+        "lastName": "Diaz",
+        "rating": 3.5,
+        "numRatings": 6,
+        "avgDiff": 3.5,
+        "dep": "Womens & Gender Studies"
+    },
+    {
+        "firstName": "Heather",
+        "lastName": "Tasker",
+        "rating": 4.5,
+        "numRatings": 2,
+        "avgDiff": 2.5,
+        "dep": "Womens & Gender Studies"
+    },
+    {
+        "firstName": "Karyn",
+        "lastName": "Recollet",
+        "rating": 2.5,
+        "numRatings": 4,
+        "avgDiff": 4,
+        "dep": "Womens  Gender Studies"
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "Adleman",
+        "rating": 4.9,
+        "numRatings": 10,
+        "avgDiff": 3,
+        "dep": "Writing"
+    },
+    {
+        "firstName": "Viktoria",
+        "lastName": "Jovanovic-Krstic",
+        "rating": 4.8,
+        "numRatings": 49,
+        "avgDiff": 3.1,
+        "dep": "Writing"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Vogan",
+        "rating": 0,
+        "numRatings": 0,
+        "avgDiff": 0,
+        "dep": "Writing"
+    }
+]
