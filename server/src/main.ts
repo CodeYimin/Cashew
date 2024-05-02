@@ -1,12 +1,21 @@
 import cors from "cors";
 import express from "express";
 import session from "express-session";
-import { db } from "./db";
+// import { db } from "./db";
 import routes from "./routes";
+import fs from "fs";
+import https from "https";
+
+const PORT = process.env.PORT || 4000;
+const SSL_CERT_PATH = process.env.SSL_CERT_PATH;
+const SSL_KEY_PATH = process.env.SSL_KEY_PATH;
+
+const httpsOptions = {
+  cert: fs.readFileSync(SSL_CERT_PATH),
+  key: fs.readFileSync(SSL_KEY_PATH)
+};
 
 async function start() {
-  const PORT = process.env.PORT || 4000;
-
   const app = express();
   app.use(
     cors({
@@ -22,11 +31,15 @@ async function start() {
   );
   app.use("/api", routes);
 
-  app.listen(PORT, () => {
+  https.createServer(httpsOptions, app).listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });
 
-  console.log(await db.user.findMany());
+  // app.listen(PORT, () => {
+  //   console.log(`Server is running on port ${PORT}`);
+  // });
+
+  // console.log(await db.user.findMany());
 }
 
 start();

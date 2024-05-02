@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mtucourses/rate-my-professors": "^2.2.1",
     "@prisma/client": "^5.5.2",
     "@types/body-parser": "^1.19.4",
     "@types/cors": "^2.8.15",
