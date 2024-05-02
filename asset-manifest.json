@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Cashew/static/css/main.7168e650.css",
-    "main.js": "/Cashew/static/js/main.2ff9d76f.js",
+    "main.js": "/Cashew/static/js/main.b7a548aa.js",
     "static/media/Rectangle_19.png": "/Cashew/static/media/Rectangle_19.14da0b1f186ded8909ed.png",
     "static/media/Rectangle_451.png": "/Cashew/static/media/Rectangle_451.63a09709aa6bce983402.png",
     "static/media/Group_8.png": "/Cashew/static/media/Group_8.1dd94f8240dbfeb2ae27.png",
     "index.html": "/Cashew/index.html",
     "main.7168e650.css.map": "/Cashew/static/css/main.7168e650.css.map",
-    "main.2ff9d76f.js.map": "/Cashew/static/js/main.2ff9d76f.js.map"
+    "main.b7a548aa.js.map": "/Cashew/static/js/main.b7a548aa.js.map"
   },
   "entrypoints": [
     "static/css/main.7168e650.css",
-    "static/js/main.2ff9d76f.js"
+    "static/js/main.b7a548aa.js"
   ]
 }
