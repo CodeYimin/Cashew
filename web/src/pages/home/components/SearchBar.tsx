@@ -21,8 +21,6 @@ function SearchBar({ maxSuggestions = 30 }: SearchBarProps): ReactElement {
     })();
   }, [searchContent, maxSuggestions]);
 
-  function searchHandler() {}
-
   return (
     <div className="search-bar-class">
       <input
@@ -32,14 +30,6 @@ function SearchBar({ maxSuggestions = 30 }: SearchBarProps): ReactElement {
         type="text"
         placeholder="Search a course..."
       />
-      <div
-        className={css`
-          display: flex;
-          justify-content: center;
-        `}
-      >
-        <button onClick={searchHandler}>SEARCH</button>
-      </div>
 
       <div
         className={css`

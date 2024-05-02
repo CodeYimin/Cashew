@@ -20,16 +20,16 @@ function Navbar({}: NavbarProps): ReactElement {
         padding: 0;
       `}
     >
-      <a className="navbar-title" href="/">
+      <a className="navbar-title" href="#/">
         <img src={logo} style={{ height: "5rem" }} />
         Cashew
       </a>
       <ul>
         <li>
-          <a href="/course">Pathway Explorer</a>
+          <a href="#/course">Pathway Explorer</a>
         </li>
         <li>
-          <a href="/timetable">Timetable</a>
+          <a href="#/timetable">Timetable</a>
         </li>
       </ul>
       <div className="icons">

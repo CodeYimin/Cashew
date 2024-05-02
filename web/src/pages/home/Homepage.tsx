@@ -16,7 +16,7 @@ function Homepage({ a }: HomepageProps): ReactElement {
         <div>Welcome to University of Toronto</div>
         <div className={`padding: 20 0 20 0`}></div>
         <div>Course Pathway Portal</div>
-        <a href="/homepagesearch">Get Started</a>
+        <a href="#/homepagesearch">Get Started</a>
       </div>
       <div
         className={css`

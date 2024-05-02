@@ -91,6 +91,7 @@ function CourseDisplay({ a }: CourseDisplayProps): ReactElement {
       try {
         data2 = await res2.json();
       } catch (e) {}
+      console.log(data);
       setCourse({ code: courseId, prereqs: data });
       setFuture(data2 || { code: courseId, futureCourses: null });
     })();

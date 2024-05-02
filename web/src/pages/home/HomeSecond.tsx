@@ -10,9 +10,7 @@ function HomeSecond({ a }: HomeSecondProps): ReactElement {
   return (
     <div className="homepage2">
       <div className="search-bar">
-        <div className="text">
-          Search a course and find where these options can take you
-        </div>
+        <div className="text">Find Course Names</div>
         <SearchBar />
       </div>
     </div>
