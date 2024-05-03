@@ -14,15 +14,14 @@ function Homepage({ a }: HomepageProps): ReactElement {
     <div className="homepage">
       <div className="title">
         <div>Welcome to University of Toronto</div>
-        <div className={`padding: 20 0 20 0`}></div>
         <div>Course Pathway Portal</div>
-        <a href="#/homepagesearch">Get Started</a>
+        <a href={`${process.env.PUBLIC_URL}/course`}>Get Started</a>
       </div>
       <div
         className={css`
           height: 50vh;
         `}
-      ></div>
+      />
       <div className="panels">
         <div className="panel1">
           <img src={clock} style={{ height: "10rem" }} alt="" />

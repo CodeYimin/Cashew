@@ -1,1 +1,2 @@
-export const API_URL = "https://cashewapi.hanzishark.com:4444/api";
+export const API_URL = "https://yiminsun.com/cashew/api";
+export const ROUTER_BASENAME = "/cashew";

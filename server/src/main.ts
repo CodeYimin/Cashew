@@ -11,7 +11,7 @@ async function start() {
   const app = express();
   app.use(
     cors({
-      origin: ["https://codeyimin.github.io"],
+      origin: ["*"],
       credentials: true,
     }),
     session({

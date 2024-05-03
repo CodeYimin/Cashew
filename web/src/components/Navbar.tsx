@@ -8,6 +8,7 @@ interface NavbarProps {}
 
 function Navbar({}: NavbarProps): ReactElement {
   const [sidebar, setSidebar] = useState(false);
+
   return (
     <nav
       className={css`
@@ -20,16 +21,16 @@ function Navbar({}: NavbarProps): ReactElement {
         padding: 0;
       `}
     >
-      <a className="navbar-title" href="#/">
+      <a className="navbar-title" href={`${process.env.PUBLIC_URL}`}>
         <img src={logo} style={{ height: "5rem" }} />
         Cashew
       </a>
       <ul>
         <li>
-          <a href="#/course">Pathway Explorer</a>
+          <a href={`${process.env.PUBLIC_URL}/course`}>Pathway Explorer</a>
         </li>
         <li>
-          <a href="#/timetable">Timetable</a>
+          <a href={`${process.env.PUBLIC_URL}/timetable`}>Timetable</a>
         </li>
       </ul>
       <div className="icons">
